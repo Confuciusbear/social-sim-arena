@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T17:10:50Z",
+ "generated_at": "2026-10-14T21:41:35Z",
  "season": 0,
  "trackers": {
   "trump_approval_avg": {
@@ -42764,7 +42764,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -42835,7 +42835,7 @@
      }
     },
     "h2oai-marina": {
-     "filed": "2026-10-11T18:33:55.989943Z",
+     "filed": "2026-10-14T20:57:15.105538Z",
      "sealed": true
     }
    }
@@ -51525,7 +51525,7 @@
      "sealed": true
     },
     "h2oai-marina": {
-     "filed": "2026-10-14T02:42:11.970794Z",
+     "filed": "2026-10-14T21:01:53.295089Z",
      "sealed": true
     },
     "h2oai-superagent": {
@@ -51623,7 +51623,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "profile",
      "cells_n": 5,
      "cells": {
@@ -51650,7 +51650,7 @@
      }
     },
     "h2oai-marina": {
-     "filed": "2026-10-11T18:31:52.129190Z",
+     "filed": "2026-10-14T20:55:22.507727Z",
      "sealed": true
     }
    }
@@ -51705,7 +51705,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "ranking",
      "items_n": 10,
      "items": [
@@ -51722,7 +51722,7 @@
      ]
     },
     "h2oai-marina": {
-     "filed": "2026-10-11T18:31:54.712023Z",
+     "filed": "2026-10-14T20:55:33.981810Z",
      "sealed": true
     }
    }
@@ -51770,31 +51770,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 43.33,
      "sd": 1.51
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 43.31,
      "sd": 1.6
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 44.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 42.43,
      "sd": 3.8
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:52:04.775316Z",
+     "filed": "2026-10-14T20:59:00.623481Z",
      "sealed": true
     }
    }
@@ -51979,7 +51979,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -52050,7 +52050,7 @@
      }
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:50:01.580379Z",
+     "filed": "2026-10-14T21:17:54.326321Z",
      "sealed": true
     }
    }
@@ -52146,7 +52146,7 @@
      "sd": 2.0
     },
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 6.74,
      "sd": 1.19
@@ -52182,7 +52182,7 @@
      "sd": 0.8
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 8.06,
      "sd": 1.0
@@ -52272,7 +52272,7 @@
      "sd": 1.2
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 8.19,
      "sd": 1.5
@@ -52302,7 +52302,7 @@
      "sd": 1.8
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 9.85,
      "sd": 1.64
@@ -55361,6 +55361,7 @@
    "n_forecasts": 25,
    "forecasts": {
     "apodex-futureflow": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": 30.0,
      "sd": 0.5
@@ -55456,11 +55457,13 @@
      "sd": 0.45
     },
     "h2oai-marina": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": 29.2,
      "sd": 0.369
     },
     "h2oai-superagent": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": 29.8,
      "sd": 0.5
@@ -55484,6 +55487,7 @@
      "sd": 1.11
     },
     "vac-public-opinion": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": 29.975,
      "sd": 0.3606
@@ -55495,6 +55499,7 @@
      "sd": 0.26613913565218433
     },
     "yulan-onesim": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": 29.15,
      "sd": 0.82
@@ -55551,6 +55556,7 @@
    "n_forecasts": 25,
    "forecasts": {
     "apodex-futureflow": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -26.3,
      "sd": 1.2
@@ -55646,11 +55652,13 @@
      "sd": 0.6
     },
     "h2oai-marina": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -25.8,
      "sd": 1.471
     },
     "h2oai-superagent": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -26.2,
      "sd": 1.05
@@ -55674,6 +55682,7 @@
      "sd": 1.86
     },
     "vac-public-opinion": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -25.8917,
      "sd": 0.6108
@@ -55685,6 +55694,7 @@
      "sd": 1.0061078294233057
     },
     "yulan-onesim": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -27.3,
      "sd": 1.43
@@ -55741,6 +55751,7 @@
    "n_forecasts": 25,
    "forecasts": {
     "apodex-futureflow": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -42.2,
      "sd": 0.6
@@ -55836,11 +55847,13 @@
      "sd": 1.25
     },
     "h2oai-marina": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -42.1,
      "sd": 1.065
     },
     "h2oai-superagent": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -42.1,
      "sd": 0.5
@@ -55864,6 +55877,7 @@
      "sd": 1.68
     },
     "vac-sentiment-expectations": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -42.1167,
      "sd": 0.3051
@@ -55875,6 +55889,7 @@
      "sd": 1.1817953783145088
     },
     "yulan-onesim": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -42.2,
      "sd": 1.27
@@ -55931,6 +55946,7 @@
    "n_forecasts": 25,
    "forecasts": {
     "apodex-futureflow": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -40.0,
      "sd": 1.3
@@ -56026,11 +56042,13 @@
      "sd": 1.15
     },
     "h2oai-marina": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -39.1,
      "sd": 1.203
     },
     "h2oai-superagent": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -39.5,
      "sd": 1.0
@@ -56054,6 +56072,7 @@
      "sd": 2.04
     },
     "vac-sentiment-expectations": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -39.2667,
      "sd": 0.8683
@@ -56065,6 +56084,7 @@
      "sd": 1.0263908908742148
     },
     "yulan-onesim": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -39.8,
      "sd": 1.17
@@ -56121,6 +56141,7 @@
    "n_forecasts": 25,
    "forecasts": {
     "apodex-futureflow": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -34.8,
      "sd": 1.0
@@ -56216,11 +56237,13 @@
      "sd": 0.85
     },
     "h2oai-marina": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -34.3,
      "sd": 0.708
     },
     "h2oai-superagent": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -34.3,
      "sd": 0.45
@@ -56244,6 +56267,7 @@
      "sd": 1.68
     },
     "vac-sentiment-expectations": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -34.3417,
      "sd": 0.3853
@@ -56255,6 +56279,7 @@
      "sd": 0.7466923108715025
     },
     "yulan-onesim": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": -35.51,
      "sd": 0.84
@@ -56311,6 +56336,7 @@
    "n_forecasts": 25,
    "forecasts": {
     "apodex-futureflow": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": 61.6,
      "sd": 1.8
@@ -56406,11 +56432,13 @@
      "sd": 1.5
     },
     "h2oai-marina": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": 59.6,
      "sd": 1.355
     },
     "h2oai-superagent": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": 59.6,
      "sd": 0.4
@@ -56434,6 +56462,7 @@
      "sd": 2.52
     },
     "vac-sentiment-expectations": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": 59.825,
      "sd": 0.6305
@@ -56445,6 +56474,7 @@
      "sd": 1.6219589970595105
     },
     "yulan-onesim": {
+     "filed": "2026-10-14T17:13Z",
      "shape": "number",
      "mean": 62.6,
      "sd": 0.9
@@ -56500,31 +56530,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 29.34,
      "sd": 1.0
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 29.44,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 29.2,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 29.31,
      "sd": 1.21
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:39:56.129367Z",
+     "filed": "2026-10-14T21:06:33.275356Z",
      "sealed": true
     }
    }
@@ -56572,31 +56602,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -22.91,
      "sd": 2.31
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -26.37,
      "sd": 1.11
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -26.8,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -28.65,
      "sd": 2.03
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:40:17.094165Z",
+     "filed": "2026-10-14T21:08:09.291416Z",
      "sealed": true
     }
    }
@@ -56644,31 +56674,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -37.2,
      "sd": 3.3
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -41.84,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -42.4,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -44.74,
      "sd": 1.83
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:40:39.930559Z",
+     "filed": "2026-10-14T21:09:50.652569Z",
      "sealed": true
     }
    }
@@ -56716,31 +56746,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -33.4,
      "sd": 2.56
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -38.01,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -39.1,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -42.48,
      "sd": 2.23
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:41:07.977034Z",
+     "filed": "2026-10-14T21:11:32.210595Z",
      "sealed": true
     }
    }
@@ -56788,31 +56818,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -30.21,
      "sd": 1.7
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -33.22,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -35.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -34.83,
      "sd": 1.83
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:41:35.130244Z",
+     "filed": "2026-10-14T21:13:41.165789Z",
      "sealed": true
     }
    }
@@ -56860,31 +56890,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 57.37,
      "sd": 2.81
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 61.26,
      "sd": 1.52
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 62.6,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 63.13,
      "sd": 2.74
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:42:03.428292Z",
+     "filed": "2026-10-14T21:15:20.985078Z",
      "sealed": true
     }
    }
@@ -56970,7 +57000,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "profile",
      "cells_n": 5,
      "cells": {
@@ -56997,7 +57027,7 @@
      }
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:58:43.899204Z",
+     "filed": "2026-10-14T21:19:34.601700Z",
      "sealed": true
     }
    }
@@ -57052,7 +57082,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "ranking",
      "items_n": 10,
      "items": [
@@ -57069,7 +57099,7 @@
      ]
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T15:30:19.826183Z",
+     "filed": "2026-10-14T21:19:45.488155Z",
      "sealed": true
     }
    }
@@ -57117,31 +57147,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 29.34,
      "sd": 1.0
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 29.44,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 29.2,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 29.25,
      "sd": 1.3
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:42:28.247407Z",
+     "filed": "2026-10-14T21:26:34.487271Z",
      "sealed": true
     }
    }
@@ -57189,31 +57219,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -22.91,
      "sd": 2.31
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -26.37,
      "sd": 1.11
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -26.8,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -29.24,
      "sd": 2.18
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:42:49.208335Z",
+     "filed": "2026-10-14T21:28:09.605334Z",
      "sealed": true
     }
    }
@@ -57261,31 +57291,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -37.2,
      "sd": 3.3
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -41.84,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -42.4,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -45.56,
      "sd": 1.97
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:43:15.735990Z",
+     "filed": "2026-10-14T21:29:42.416616Z",
      "sealed": true
     }
    }
@@ -57333,31 +57363,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -33.4,
      "sd": 2.56
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -38.01,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -39.1,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -43.77,
      "sd": 2.4
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:43:41.945463Z",
+     "filed": "2026-10-14T21:31:38.222073Z",
      "sealed": true
     }
    }
@@ -57405,31 +57435,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -30.21,
      "sd": 1.7
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -33.22,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -35.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": -35.4,
      "sd": 1.97
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:44:04.742289Z",
+     "filed": "2026-10-14T21:33:28.235273Z",
      "sealed": true
     }
    }
@@ -57477,31 +57507,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 57.37,
      "sd": 2.81
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 61.26,
      "sd": 1.52
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 62.6,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 63.73,
      "sd": 2.96
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:44:29.913215Z",
+     "filed": "2026-10-14T21:35:04.067138Z",
      "sealed": true
     }
    }
@@ -57686,7 +57716,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -57757,7 +57787,7 @@
      }
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T19:51:23.722832Z",
+     "filed": "2026-10-14T21:37:54.893900Z",
      "sealed": true
     }
    }
@@ -59501,31 +59531,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 39.0,
      "sd": 1.53
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 37.57,
      "sd": 1.5
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 38.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 36.48,
      "sd": 3.01
     },
     "h2oai-marina": {
-     "filed": "2026-10-11T18:35:30.086538Z",
+     "filed": "2026-10-14T21:03:46.289556Z",
      "sealed": true
     }
    }
@@ -59573,31 +59603,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 19.5,
      "sd": 1.87
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 19.8,
      "sd": 2.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 20.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 19.26,
      "sd": 3.57
     },
     "h2oai-marina": {
-     "filed": "2026-10-11T18:36:41.488264Z",
+     "filed": "2026-10-14T21:05:03.542537Z",
      "sealed": true
     }
    }
@@ -59645,31 +59675,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 39.0,
      "sd": 1.53
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 37.57,
      "sd": 1.5
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 38.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 36.22,
      "sd": 3.27
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T20:03:18.027046Z",
+     "filed": "2026-10-14T21:21:13.925619Z",
      "sealed": true
     }
    }
@@ -59717,31 +59747,31 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 19.5,
      "sd": 1.87
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 19.8,
      "sd": 2.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 20.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 19.2,
      "sd": 3.88
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T20:03:56.483019Z",
+     "filed": "2026-10-14T21:22:50.838848Z",
      "sealed": true
     }
    }
@@ -59926,7 +59956,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -59997,7 +60027,7 @@
      }
     },
     "h2oai-marina": {
-     "filed": "2026-09-30T20:10:42.944533Z",
+     "filed": "2026-10-14T21:25:04.824968Z",
      "sealed": true
     }
    }
@@ -60045,25 +60075,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 39.0,
      "sd": 1.53
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 37.57,
      "sd": 1.5
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 38.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 36.03,
      "sd": 3.51
@@ -60117,25 +60147,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 19.5,
      "sd": 1.87
     },
     "ewma": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 19.8,
      "sd": 2.0
     },
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 20.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "number",
      "mean": 19.16,
      "sd": 4.16
@@ -60326,7 +60356,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-14T17:07Z",
+     "filed": "2026-10-14T21:38Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -100569,8 +100599,8 @@
   "sb_approval": {
    "source": "sb_approval",
    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS-FKWVTTFtJT6u56e0bqdfoMcXvDO1DUChsJ3jQAMB2lZk2SMqVfmg7dGjclTYkYWz-Pm5lfcLPjp4/pub?output=csv",
-   "fetched_at": "2026-10-14T17:10:50Z",
-   "sha256": "0dc826c9c34ee7380ac386f1d96aca2db217971fe94f09bcf801ae7b0bdcb6d9",
+   "fetched_at": "2026-10-14T21:41:36Z",
+   "sha256": "fd48f815e681e43fc21841c4e8ee8c66df8685e398e1085a78df50841f9ddb04",
    "bytes": 1704776,
    "file": "sources/sb_approval/2026-10-14.csv",
    "note": "Silver Bulletin poll database, published as a Google Sheet"
@@ -100578,8 +100608,8 @@
   "sb_generic": {
    "source": "sb_generic",
    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRsvXNCZ0ubJr8D_yNcU5q6C0_HBa35K7oDK03KpO7Ca43UwdXaIdvVLWoXEmHHph0EREz5430Hm5yZ/pub?output=csv",
-   "fetched_at": "2026-10-14T17:10:50Z",
-   "sha256": "f7bd7495a9d7c1d6b288e02d435fe752f03849d37820ccc5157f4b01798c4ea4",
+   "fetched_at": "2026-10-14T21:41:36Z",
+   "sha256": "b78816c3895203d68fd8462de379aef2d3b173dd17feb02633f2fd6e27a5824d",
    "bytes": 174038,
    "file": "sources/sb_generic/2026-10-14.csv",
    "note": "Silver Bulletin generic-ballot database, published as a Google Sheet"
@@ -100587,7 +100617,7 @@
   "umich": {
    "source": "umich",
    "url": "http://www.sca.isr.umich.edu/files/tbmics.csv",
-   "fetched_at": "2026-10-14T17:10:51Z",
+   "fetched_at": "2026-10-14T21:41:37Z",
    "sha256": "367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a",
    "bytes": 14400,
    "file": "sources/umich/2026-10-14.json",
@@ -100596,7 +100626,7 @@
   "aaii": {
    "source": "aaii",
    "url": "https://www.aaii.com/sentimentsurvey/sent_results",
-   "fetched_at": "2026-10-14T17:10:51Z",
+   "fetched_at": "2026-10-14T21:41:37Z",
    "sha256": "ffdfdef3593b60ce05ccae1702de3d751a4b983281d4bc37f15abb6023f7f483",
    "bytes": 45991,
    "file": "sources/aaii/2026-10-14.html",
@@ -104753,7 +104783,7 @@
    "manifest_sha256": "756df6dc3ddb074ebced73d34fd4440df6ddb67eb2242111d2cfeb29c0bba8c8",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w42-angry-share.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-14T14:00:00Z",
    "built_at": "2026-10-14T17:08:58Z",
    "forecast_sha256": {
@@ -104785,7 +104815,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w42-approval": {
    "round_id": "civiqs-2026-w42-approval",
@@ -104794,7 +104824,7 @@
    "manifest_sha256": "5bbd061eeec5dc0ea41dac7b9094e2a34aabe6c63224efd41b51634dc1d305b3",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w42-approval.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-14T14:00:00Z",
    "built_at": "2026-10-14T17:09:00Z",
    "forecast_sha256": {
@@ -104826,7 +104856,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w42-econ-direction": {
    "round_id": "civiqs-2026-w42-econ-direction",
@@ -104835,7 +104865,7 @@
    "manifest_sha256": "3523fdddad80d221991762c69364e0057ea1dd93cf7bfc1e299319b52471d657",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w42-econ-direction.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-14T14:00:00Z",
    "built_at": "2026-10-14T17:09:02Z",
    "forecast_sha256": {
@@ -104867,7 +104897,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w42-econ-now": {
    "round_id": "civiqs-2026-w42-econ-now",
@@ -104876,7 +104906,7 @@
    "manifest_sha256": "6f6b060d7f823c8dd5f95988c967d36a573926c8fed323a1bc040eb1cd116f96",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w42-econ-now.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-14T14:00:00Z",
    "built_at": "2026-10-14T17:09:04Z",
    "forecast_sha256": {
@@ -104908,7 +104938,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w42-family-finances": {
    "round_id": "civiqs-2026-w42-family-finances",
@@ -104917,7 +104947,7 @@
    "manifest_sha256": "c1f12374579a804e016c3a9a50e70cb62faf35b9bab72fa5ca85461837814c63",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w42-family-finances.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-14T14:00:00Z",
    "built_at": "2026-10-14T17:09:06Z",
    "forecast_sha256": {
@@ -104949,7 +104979,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w42-inflation-concern": {
    "round_id": "civiqs-2026-w42-inflation-concern",
@@ -104958,7 +104988,7 @@
    "manifest_sha256": "ace100fcdb93f62af5ed46abf0f74942cb18510732c0ba8248a2e88a6e4e4a27",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w42-inflation-concern.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-14T14:00:00Z",
    "built_at": "2026-10-14T17:09:07Z",
    "forecast_sha256": {
@@ -104990,7 +105020,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "yougov-2026-w40-rv-approval": {
    "round_id": "yougov-2026-w40-rv-approval",
@@ -105242,8 +105272,8 @@
   {
    "source": "civiqs",
    "state": "stale",
-   "fetched_days": 0.7,
-   "changed_days": 6.7,
+   "fetched_days": 0.9,
+   "changed_days": 6.9,
    "budget_fetch_days": 2,
    "budget_change_days": 4,
    "url": null,
@@ -105252,176 +105282,176 @@
    "tracker_health": [
     {
      "key": "approve_president_trump_2025",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.age-18-34",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.age-35-49",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.age-50-64",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.age-65_",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.education-College_Graduate",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.education-Non-College_Graduate",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.education-Postgraduate",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.gender-Female",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.gender-Male",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.party-Democrat",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.party-Independent",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.party-Republican",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.race-Black_or_African-American",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.race-Hispanic_Latino",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.race-Other",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "approve_president_trump_2025.race-White",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "describe_feeling_us",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 10,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-13"
     },
     {
      "key": "economy_family_retro",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "economy_us_direction",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-13"
     },
     {
      "key": "economy_us_now",
-     "fetched_days": 0.7,
-     "changed_days": 6.7,
+     "fetched_days": 0.9,
+     "changed_days": 6.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-08"
     },
     {
      "key": "inflation_impact",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-14",
      "newest_reading": "2026-10-12"
@@ -105438,7 +105468,7 @@
   {
    "source": "sb_approval",
    "state": "ok",
-   "fetched_days": 0.0,
+   "fetched_days": -0.0,
    "changed_days": 0.0,
    "budget_fetch_days": 2,
    "budget_change_days": 7,
@@ -105448,7 +105478,7 @@
   {
    "source": "sb_generic",
    "state": "ok",
-   "fetched_days": 0.0,
+   "fetched_days": -0.0,
    "changed_days": 0.0,
    "budget_fetch_days": 2,
    "budget_change_days": 10,
@@ -105459,7 +105489,7 @@
    "source": "umich",
    "state": "ok",
    "fetched_days": -0.0,
-   "changed_days": 4.8,
+   "changed_days": 5.0,
    "budget_fetch_days": 3,
    "budget_change_days": 40,
    "url": "http://www.sca.isr.umich.edu/files/tbmics.csv",
@@ -105467,7 +105497,7 @@
   }
  ],
  "operator_status": {
-  "generated_at": "2026-10-14T17:10:50Z",
+  "generated_at": "2026-10-14T21:41:35Z",
   "source_states": [
    {
     "attempts": 1,
@@ -105489,7 +105519,7 @@
    {
     "attempts": 1,
     "last_error": "approve_president_trump_2025: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/approve_president_trump_2025; approve_president_trump_2025.party-Republican: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/approve_president_trump_2025?party=Republican; economy_us_now: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_now; economy_family_retro: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_family_retro; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact; approve_president_trump_2025.party-Democrat: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/approve_president_trump_2025?party=Democrat; approve_president_trump_2025.party-Independent: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/approve_president_trump_2025?party=Independent; approve_president_trump",
-    "next_retry": "2026-10-14T23:10:50Z",
+    "next_retry": "2026-10-15T03:41:35Z",
     "next_lock": "2026-10-14T22:00:00Z",
     "next_deadline": "2026-10-14T22:00:00Z",
     "route": "ssa.series:civiqs",
@@ -105497,7 +105527,7 @@
     "required_action": "restore live access now or hold affected rounds before the deadline; the same-source archive is not a new release",
     "evidence": [
      "civiqs/approve_president_trump_2025 (49 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.age-18-34 (46 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.age-35-49 (47 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.age-50-64 (48 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.age-65_ (47 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.education-College_Graduate (49 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.education-Non-College_Graduate (49 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.education-Postgraduate (49 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.gender-Female (49 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.gender-Male (49 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.party-Democrat (48 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.party-Independent (48 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.party-Republican (50 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.race-Black_or_African-American (49 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.race-Hispanic_Latino (50 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.race-Other (50 snapshots; newest 2026-10-14); civiqs/approve_president_trump_2025.race-White (48 snapshots; newest 2026-10-14); civiqs/economy_family_retro (49 snapshots; newest 2026-10-14); civiqs/economy_us_now (49 snapshots; newest 2026-10-14); civiqs/inflation_impact (48 snapshots; newest 2026-10-14)",
-     "fetched_days=0.7; changed_days=6.7; fetch_budget=2; change_budget=4; stale_keys=economy_us_now",
+     "fetched_days=0.9; changed_days=6.9; fetch_budget=2; change_budget=4; stale_keys=economy_us_now",
      "live attempt failed; same-source archive used"
     ],
     "alert": true,
@@ -105546,8 +105576,8 @@
     "estimated_spend": 0.0,
     "required_action": "none",
     "evidence": [
-     "fetched_days=0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
-     "sources/sb_approval/2026-10-14.csv sha256=0dc826c9c34ee7380ac386f1d96aca2db217971fe94f09bcf801ae7b0bdcb6d9"
+     "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
+     "sources/sb_approval/2026-10-14.csv sha256=fd48f815e681e43fc21841c4e8ee8c66df8685e398e1085a78df50841f9ddb04"
     ],
     "alert": false,
     "source": "sb_approval",
@@ -105563,8 +105593,8 @@
     "estimated_spend": 0.0,
     "required_action": "none",
     "evidence": [
-     "fetched_days=0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
-     "sources/sb_generic/2026-10-14.csv sha256=f7bd7495a9d7c1d6b288e02d435fe752f03849d37820ccc5157f4b01798c4ea4"
+     "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
+     "sources/sb_generic/2026-10-14.csv sha256=b78816c3895203d68fd8462de379aef2d3b173dd17feb02633f2fd6e27a5824d"
     ],
     "alert": false,
     "source": "sb_generic",
@@ -105628,7 +105658,7 @@
     "estimated_spend": 0.0,
     "required_action": "none",
     "evidence": [
-     "fetched_days=-0.0; changed_days=4.8; fetch_budget=3; change_budget=40",
+     "fetched_days=-0.0; changed_days=5.0; fetch_budget=3; change_budget=40",
      "sources/umich/2026-10-14.json sha256=367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a"
     ],
     "alert": false,
@@ -105684,263 +105714,7 @@
     "state": "healthy"
    }
   ],
-  "entrant_round_states": [
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "claude-sonnet-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/claude-sonnet-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "claude-sonnet-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/claude-sonnet-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "deepseek-pro-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/deepseek-pro-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "deepseek-pro-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/deepseek-pro-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "gemini-pro-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/gemini-pro-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "gemini-pro-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/gemini-pro-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "glm-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/glm-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "glm-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/glm-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "gpt-5.6-luna-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/gpt-5.6-luna-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "gpt-5.6-luna-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/gpt-5.6-luna-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "grok-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/grok-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "grok-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/grok-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "test-jay",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/test-jay.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "participant:social-simulation-arena.com",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "worldvac-base",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/worldvac-base.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "participant:worldvac-ssa-agent.com",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "zhengzheng-agent",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w42/zhengzheng-agent.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-14T22:00:00Z",
-    "next_lock": "2026-10-14T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w42",
-    "route": "participant:zhengzhengqimen.top",
-    "state": "succeeded"
-   }
-  ],
+  "entrant_round_states": [],
   "counts": {
    "sources": {
     "deadline_risk": 1,
@@ -105954,7 +105728,7 @@
     "queued": 0,
     "retryable_failure": 0,
     "running": 0,
-    "succeeded": 15,
+    "succeeded": 0,
     "terminal_failure": 0
    }
   },
