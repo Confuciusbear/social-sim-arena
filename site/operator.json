@@ -26,7 +26,7 @@
     }
   },
   "entrant_round_states": [],
-  "generated_at": "2026-10-16T16:38:20Z",
+  "generated_at": "2026-10-16T21:06:52Z",
   "source_states": [
     {
       "alert": false,
@@ -34,7 +34,7 @@
       "estimated_spend": 0.0,
       "evidence": [
         "fetched_days=-0.0; changed_days=-0.0; fetch_budget=3; change_budget=12",
-        "sources/aaii/2026-10-16.html sha256=8c7b56974cd9464d41f5d5cd0ee97c076a553df2181fa96438bee043d276f98a"
+        "sources/aaii/2026-10-16.html sha256=efdbb7624345c52b19462d876e2eadd3ef0fa1c95c2ba7de27e74f8b87c8149d"
       ],
       "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
@@ -51,13 +51,13 @@
       "estimated_spend": 0.0,
       "evidence": [
         "civiqs/economy_family_retro (51 snapshots; newest 2026-10-16); civiqs/inflation_impact (50 snapshots; newest 2026-10-16)",
-        "fetched_days=0.7; changed_days=4.7; fetch_budget=2; change_budget=4; stale_keys=economy_family_retro,inflation_impact",
+        "fetched_days=0.9; changed_days=4.9; fetch_budget=2; change_budget=4; stale_keys=economy_family_retro,inflation_impact",
         "live attempt failed; same-source archive used"
       ],
       "last_error": "economy_family_retro: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_family_retro; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact",
       "next_deadline": "2026-10-18T14:00:00Z",
       "next_lock": "2026-10-18T14:00:00Z",
-      "next_retry": "2026-10-16T22:38:20Z",
+      "next_retry": "2026-10-17T03:06:52Z",
       "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
       "route": "ssa.series:civiqs",
       "source": "civiqs",
@@ -100,8 +100,8 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
-        "sources/sb_approval/2026-10-16.csv sha256=363e6cd2f106aedb73d7ee4378aca182ba75602662d2fd86c958a9fa37fd8140"
+        "fetched_days=0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
+        "sources/sb_approval/2026-10-16.csv sha256=e3cc1b2832eca108a347ba1fdd05c80b7c28d25516cd9e7737a97f1633945caf"
       ],
       "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
@@ -117,8 +117,8 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
-        "sources/sb_generic/2026-10-16.csv sha256=1b29ceece092726a08fed6f1590de5faf58c26b78b4f49e861e0f73e8ccba481"
+        "fetched_days=0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
+        "sources/sb_generic/2026-10-16.csv sha256=b0625bede27a3a8678a4d171bde92c56765f8f31d40e3257631989e9c291dd35"
       ],
       "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
@@ -182,7 +182,7 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=6.8; fetch_budget=3; change_budget=40",
+        "fetched_days=-0.0; changed_days=6.9; fetch_budget=3; change_budget=40",
         "sources/umich/2026-10-16.json sha256=367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a"
       ],
       "last_error": null,

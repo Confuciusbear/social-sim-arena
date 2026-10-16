@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:38:20Z",
+ "generated_at": "2026-10-16T21:06:52Z",
  "season": 0,
  "trackers": {
   "trump_approval_avg": {
@@ -41015,7 +41015,7 @@
     "yougov_xtab_approve_edu_college_grad",
     "yougov_xtab_approve_edu_postgrad"
    ],
-   "status": "awaiting_resolution",
+   "status": "resolved",
    "history_source": "window snapshot",
    "baselines": null,
    "scoreable": true,
@@ -42582,6 +42582,124 @@
       }
      }
     }
+   },
+   "scores": {
+    "apodex-futureflow": {
+     "energy": 7.805,
+     "skill": 0.181
+    },
+    "gemini-pro-web-superfc": {
+     "energy": 8.1376,
+     "skill": 0.1461
+    },
+    "gemini-pro-web": {
+     "energy": 8.1369,
+     "skill": 0.1461
+    },
+    "grok-web": {
+     "energy": 8.3343,
+     "skill": 0.1254
+    },
+    "claude-sonnet-web-superfc": {
+     "energy": 8.3853,
+     "skill": 0.1201
+    },
+    "claude-sonnet-web": {
+     "energy": 8.499,
+     "skill": 0.1081
+    },
+    "h2oai-superagent": {
+     "energy": 8.5144,
+     "skill": 0.1065
+    },
+    "grok-web-superfc": {
+     "energy": 8.5409,
+     "skill": 0.1037
+    },
+    "h2oai-marina": {
+     "energy": 8.6856,
+     "skill": 0.0885
+    },
+    "glm-web": {
+     "energy": 9.2759,
+     "skill": 0.0266
+    },
+    "deepseek-pro-web-superfc": {
+     "energy": 9.4266,
+     "skill": 0.0108
+    },
+    "persistence": {
+     "energy": 9.5294,
+     "skill": 0.0
+    },
+    "worldvac-base": {
+     "energy": 9.5294,
+     "skill": 0.0
+    },
+    "gpt-5.6-luna-web-superfc": {
+     "energy": 9.8097,
+     "skill": -0.0294
+    },
+    "glm-web-superfc": {
+     "energy": 11.0718,
+     "skill": -0.1619
+    },
+    "gpt-5.6-luna-web": {
+     "energy": 11.2346,
+     "skill": -0.1789
+    },
+    "crowd": {
+     "energy": 11.5103,
+     "skill": -0.2079
+    },
+    "deepseek-pro-web": {
+     "energy": 11.6168,
+     "skill": -0.219
+    },
+    "zhengzheng-agent": {
+     "energy": 142.0703,
+     "skill": -13.9086
+    }
+   },
+   "resolution": {
+    "method": "each cell's own series value as of the release date, from the Economist/YouGov tracker workbook, the wave dated inside the seven days ending on the release date; the same freeze the round's per-cell persistence null used",
+    "release_date": "2026-10-13",
+    "observed_dates": {
+     "yougov_xtab_approve_dem": "2026-10-12",
+     "yougov_xtab_approve_ind": "2026-10-12",
+     "yougov_xtab_approve_rep": "2026-10-12",
+     "yougov_xtab_approve_age_under_30": "2026-10-12",
+     "yougov_xtab_approve_age_30_44": "2026-10-12",
+     "yougov_xtab_approve_age_45_64": "2026-10-12",
+     "yougov_xtab_approve_age_65_up": "2026-10-12",
+     "yougov_xtab_approve_race_white": "2026-10-12",
+     "yougov_xtab_approve_race_black": "2026-10-12",
+     "yougov_xtab_approve_race_hispanic": "2026-10-12",
+     "yougov_xtab_approve_male": "2026-10-12",
+     "yougov_xtab_approve_female": "2026-10-12",
+     "yougov_xtab_approve_edu_hs_or_less": "2026-10-12",
+     "yougov_xtab_approve_edu_some_college": "2026-10-12",
+     "yougov_xtab_approve_edu_college_grad": "2026-10-12",
+     "yougov_xtab_approve_edu_postgrad": "2026-10-12"
+    },
+    "outcome": {
+     "yougov_xtab_approve_dem": 4.0,
+     "yougov_xtab_approve_ind": 25.0,
+     "yougov_xtab_approve_rep": 80.0,
+     "yougov_xtab_approve_age_under_30": 33.0,
+     "yougov_xtab_approve_age_30_44": 36.0,
+     "yougov_xtab_approve_age_45_64": 39.0,
+     "yougov_xtab_approve_age_65_up": 41.0,
+     "yougov_xtab_approve_race_white": 42.0,
+     "yougov_xtab_approve_race_black": 11.0,
+     "yougov_xtab_approve_race_hispanic": 40.0,
+     "yougov_xtab_approve_male": 41.0,
+     "yougov_xtab_approve_female": 35.0,
+     "yougov_xtab_approve_edu_hs_or_less": 40.0,
+     "yougov_xtab_approve_edu_some_college": 39.0,
+     "yougov_xtab_approve_edu_college_grad": 39.0,
+     "yougov_xtab_approve_edu_postgrad": 29.0
+    }
    }
   },
   {
@@ -42659,22 +42777,22 @@
      "yougov_xtab_approve_edu_postgrad": "Economist/YouGov Trump approval, postgraduates"
     },
     "history_points": {
-     "yougov_xtab_approve_dem": 89,
-     "yougov_xtab_approve_ind": 89,
-     "yougov_xtab_approve_rep": 89,
-     "yougov_xtab_approve_age_under_30": 89,
-     "yougov_xtab_approve_age_30_44": 89,
-     "yougov_xtab_approve_age_45_64": 89,
-     "yougov_xtab_approve_age_65_up": 89,
-     "yougov_xtab_approve_race_white": 89,
-     "yougov_xtab_approve_race_black": 89,
-     "yougov_xtab_approve_race_hispanic": 89,
-     "yougov_xtab_approve_male": 89,
-     "yougov_xtab_approve_female": 89,
-     "yougov_xtab_approve_edu_hs_or_less": 89,
-     "yougov_xtab_approve_edu_some_college": 89,
-     "yougov_xtab_approve_edu_college_grad": 89,
-     "yougov_xtab_approve_edu_postgrad": 89
+     "yougov_xtab_approve_dem": 90,
+     "yougov_xtab_approve_ind": 90,
+     "yougov_xtab_approve_rep": 90,
+     "yougov_xtab_approve_age_under_30": 90,
+     "yougov_xtab_approve_age_30_44": 90,
+     "yougov_xtab_approve_age_45_64": 90,
+     "yougov_xtab_approve_age_65_up": 90,
+     "yougov_xtab_approve_race_white": 90,
+     "yougov_xtab_approve_race_black": 90,
+     "yougov_xtab_approve_race_hispanic": 90,
+     "yougov_xtab_approve_male": 90,
+     "yougov_xtab_approve_female": 90,
+     "yougov_xtab_approve_edu_hs_or_less": 90,
+     "yougov_xtab_approve_edu_some_college": 90,
+     "yougov_xtab_approve_edu_college_grad": 90,
+     "yougov_xtab_approve_edu_postgrad": 90
     },
     "baselines": {
      "persistence": {
@@ -42684,32 +42802,32 @@
        "method": "persistence"
       },
       "yougov_xtab_approve_ind": {
-       "mean": 24.0,
+       "mean": 25.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_rep": {
-       "mean": 79.0,
+       "mean": 80.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_under_30": {
-       "mean": 34.0,
+       "mean": 33.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_30_44": {
-       "mean": 29.0,
+       "mean": 36.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_45_64": {
-       "mean": 41.0,
+       "mean": 39.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_65_up": {
-       "mean": 43.0,
+       "mean": 41.0,
        "sd": 1.5,
        "method": "persistence"
       },
@@ -42719,42 +42837,42 @@
        "method": "persistence"
       },
       "yougov_xtab_approve_race_black": {
-       "mean": 14.0,
+       "mean": 11.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_race_hispanic": {
-       "mean": 41.0,
+       "mean": 40.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_male": {
-       "mean": 43.0,
-       "sd": 1.5,
-       "method": "persistence"
-      },
-      "yougov_xtab_approve_female": {
-       "mean": 33.0,
-       "sd": 1.5,
-       "method": "persistence"
-      },
-      "yougov_xtab_approve_edu_hs_or_less": {
-       "mean": 45.0,
-       "sd": 1.5,
-       "method": "persistence"
-      },
-      "yougov_xtab_approve_edu_some_college": {
        "mean": 41.0,
        "sd": 1.5,
        "method": "persistence"
       },
+      "yougov_xtab_approve_female": {
+       "mean": 35.0,
+       "sd": 1.5,
+       "method": "persistence"
+      },
+      "yougov_xtab_approve_edu_hs_or_less": {
+       "mean": 40.0,
+       "sd": 1.5,
+       "method": "persistence"
+      },
+      "yougov_xtab_approve_edu_some_college": {
+       "mean": 39.0,
+       "sd": 1.5,
+       "method": "persistence"
+      },
       "yougov_xtab_approve_edu_college_grad": {
-       "mean": 31.0,
+       "mean": 39.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_edu_postgrad": {
-       "mean": 27.0,
+       "mean": 29.0,
        "sd": 1.5,
        "method": "persistence"
       }
@@ -42764,7 +42882,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -42773,27 +42891,27 @@
        "sd": 1.5
       },
       "yougov_xtab_approve_ind": {
-       "mean": 24.0,
+       "mean": 25.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_rep": {
-       "mean": 79.0,
+       "mean": 80.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_under_30": {
-       "mean": 34.0,
+       "mean": 33.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_30_44": {
-       "mean": 29.0,
+       "mean": 36.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_45_64": {
-       "mean": 41.0,
+       "mean": 39.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_65_up": {
-       "mean": 43.0,
+       "mean": 41.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_race_white": {
@@ -42801,35 +42919,35 @@
        "sd": 1.5
       },
       "yougov_xtab_approve_race_black": {
-       "mean": 14.0,
+       "mean": 11.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_race_hispanic": {
-       "mean": 41.0,
+       "mean": 40.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_male": {
-       "mean": 43.0,
-       "sd": 1.5
-      },
-      "yougov_xtab_approve_female": {
-       "mean": 33.0,
-       "sd": 1.5
-      },
-      "yougov_xtab_approve_edu_hs_or_less": {
-       "mean": 45.0,
-       "sd": 1.5
-      },
-      "yougov_xtab_approve_edu_some_college": {
        "mean": 41.0,
        "sd": 1.5
       },
+      "yougov_xtab_approve_female": {
+       "mean": 35.0,
+       "sd": 1.5
+      },
+      "yougov_xtab_approve_edu_hs_or_less": {
+       "mean": 40.0,
+       "sd": 1.5
+      },
+      "yougov_xtab_approve_edu_some_college": {
+       "mean": 39.0,
+       "sd": 1.5
+      },
       "yougov_xtab_approve_edu_college_grad": {
-       "mean": 31.0,
+       "mean": 39.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_edu_postgrad": {
-       "mean": 27.0,
+       "mean": 29.0,
        "sd": 1.5
       }
      }
@@ -53036,6 +53154,7 @@
    "n_forecasts": 22,
    "forecasts": {
     "apodex-futureflow": {
+     "filed": "2026-10-16T16:40Z",
      "shape": "profile",
      "cells_n": 5,
      "cells": {
@@ -53413,6 +53532,7 @@
      }
     },
     "h2oai-marina": {
+     "filed": "2026-10-16T16:40Z",
      "shape": "profile",
      "cells_n": 5,
      "cells": {
@@ -53439,6 +53559,7 @@
      }
     },
     "h2oai-superagent": {
+     "filed": "2026-10-16T16:40Z",
      "shape": "profile",
      "cells_n": 5,
      "cells": {
@@ -53519,6 +53640,7 @@
      }
     },
     "vac-collective-attention": {
+     "filed": "2026-10-16T16:40Z",
      "shape": "profile",
      "cells_n": 5,
      "cells": {
@@ -53572,6 +53694,7 @@
      }
     },
     "yulan-onesim": {
+     "filed": "2026-10-16T16:40Z",
      "shape": "profile",
      "cells_n": 5,
      "cells": {
@@ -53677,6 +53800,7 @@
    "n_forecasts": 21,
    "forecasts": {
     "apodex-futureflow": {
+     "filed": "2026-10-16T16:40Z",
      "shape": "ranking",
      "items_n": 10,
      "items": [
@@ -53914,6 +54038,7 @@
      ]
     },
     "h2oai-marina": {
+     "filed": "2026-10-16T16:40Z",
      "shape": "ranking",
      "items_n": 10,
      "items": [
@@ -53930,6 +54055,7 @@
      ]
     },
     "h2oai-superagent": {
+     "filed": "2026-10-16T16:40Z",
      "shape": "ranking",
      "items_n": 10,
      "items": [
@@ -53980,6 +54106,7 @@
      ]
     },
     "vac-collective-attention": {
+     "filed": "2026-10-16T16:40Z",
      "shape": "ranking",
      "items_n": 10,
      "items": [
@@ -54074,25 +54201,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 43.33,
      "sd": 1.51
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 43.31,
      "sd": 1.6
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 44.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 42.43,
      "sd": 3.8
@@ -54283,7 +54410,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -54450,7 +54577,7 @@
      "sd": 2.0
     },
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 6.75,
      "sd": 1.2
@@ -54486,7 +54613,7 @@
      "sd": 0.8
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 8.08,
      "sd": 1.0
@@ -54576,7 +54703,7 @@
      "sd": 1.2
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 8.25,
      "sd": 1.5
@@ -54606,7 +54733,7 @@
      "sd": 1.8
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 9.89,
      "sd": 1.64
@@ -59470,25 +59597,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 29.38,
      "sd": 1.0
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 29.63,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 29.9,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 29.5,
      "sd": 1.11
@@ -59542,25 +59669,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -23.2,
      "sd": 2.34
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -26.5,
      "sd": 1.02
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -26.7,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -27.7,
      "sd": 1.82
@@ -59614,25 +59741,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -37.35,
      "sd": 3.42
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -41.78,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -41.7,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -44.01,
      "sd": 1.97
@@ -59686,25 +59813,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -33.64,
      "sd": 2.79
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -38.37,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -38.9,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -41.89,
      "sd": 2.15
@@ -59758,25 +59885,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -30.38,
      "sd": 1.89
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -33.65,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -34.3,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -35.32,
      "sd": 1.22
@@ -59830,25 +59957,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 57.57,
      "sd": 2.78
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 60.59,
      "sd": 1.68
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 59.6,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 61.39,
      "sd": 2.77
@@ -59940,7 +60067,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "profile",
      "cells_n": 5,
      "cells": {
@@ -60022,7 +60149,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "ranking",
      "items_n": 10,
      "items": [
@@ -60087,25 +60214,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 29.38,
      "sd": 1.0
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 29.63,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 29.9,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 29.46,
      "sd": 1.21
@@ -60159,25 +60286,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -23.2,
      "sd": 2.34
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -26.5,
      "sd": 1.02
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -26.7,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -28.1,
      "sd": 1.98
@@ -60231,25 +60358,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -37.35,
      "sd": 3.42
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -41.78,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -41.7,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -44.76,
      "sd": 2.15
@@ -60303,25 +60430,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -33.64,
      "sd": 2.79
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -38.37,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -38.9,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -43.15,
      "sd": 2.34
@@ -60375,25 +60502,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -30.38,
      "sd": 1.89
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -33.65,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -34.3,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": -36.03,
      "sd": 1.33
@@ -60447,25 +60574,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 57.57,
      "sd": 2.78
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 60.59,
      "sd": 1.68
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 59.6,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 61.66,
      "sd": 3.02
@@ -60656,7 +60783,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -62471,25 +62598,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 39.0,
      "sd": 1.53
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 37.57,
      "sd": 1.5
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 38.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 36.48,
      "sd": 3.01
@@ -62543,25 +62670,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 19.5,
      "sd": 1.87
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 19.8,
      "sd": 2.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 20.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 19.26,
      "sd": 3.57
@@ -62615,25 +62742,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 39.0,
      "sd": 1.53
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 37.57,
      "sd": 1.5
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 38.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 36.22,
      "sd": 3.27
@@ -62687,25 +62814,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 19.5,
      "sd": 1.87
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 19.8,
      "sd": 2.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 20.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 19.2,
      "sd": 3.88
@@ -62791,22 +62918,22 @@
      "yougov_xtab_approve_edu_postgrad": "Economist/YouGov Trump approval, postgraduates"
     },
     "history_points": {
-     "yougov_xtab_approve_dem": 89,
-     "yougov_xtab_approve_ind": 89,
-     "yougov_xtab_approve_rep": 89,
-     "yougov_xtab_approve_age_under_30": 89,
-     "yougov_xtab_approve_age_30_44": 89,
-     "yougov_xtab_approve_age_45_64": 89,
-     "yougov_xtab_approve_age_65_up": 89,
-     "yougov_xtab_approve_race_white": 89,
-     "yougov_xtab_approve_race_black": 89,
-     "yougov_xtab_approve_race_hispanic": 89,
-     "yougov_xtab_approve_male": 89,
-     "yougov_xtab_approve_female": 89,
-     "yougov_xtab_approve_edu_hs_or_less": 89,
-     "yougov_xtab_approve_edu_some_college": 89,
-     "yougov_xtab_approve_edu_college_grad": 89,
-     "yougov_xtab_approve_edu_postgrad": 89
+     "yougov_xtab_approve_dem": 90,
+     "yougov_xtab_approve_ind": 90,
+     "yougov_xtab_approve_rep": 90,
+     "yougov_xtab_approve_age_under_30": 90,
+     "yougov_xtab_approve_age_30_44": 90,
+     "yougov_xtab_approve_age_45_64": 90,
+     "yougov_xtab_approve_age_65_up": 90,
+     "yougov_xtab_approve_race_white": 90,
+     "yougov_xtab_approve_race_black": 90,
+     "yougov_xtab_approve_race_hispanic": 90,
+     "yougov_xtab_approve_male": 90,
+     "yougov_xtab_approve_female": 90,
+     "yougov_xtab_approve_edu_hs_or_less": 90,
+     "yougov_xtab_approve_edu_some_college": 90,
+     "yougov_xtab_approve_edu_college_grad": 90,
+     "yougov_xtab_approve_edu_postgrad": 90
     },
     "baselines": {
      "persistence": {
@@ -62816,32 +62943,32 @@
        "method": "persistence"
       },
       "yougov_xtab_approve_ind": {
-       "mean": 24.0,
+       "mean": 25.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_rep": {
-       "mean": 79.0,
+       "mean": 80.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_under_30": {
-       "mean": 34.0,
+       "mean": 33.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_30_44": {
-       "mean": 29.0,
+       "mean": 36.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_45_64": {
-       "mean": 41.0,
+       "mean": 39.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_65_up": {
-       "mean": 43.0,
+       "mean": 41.0,
        "sd": 1.5,
        "method": "persistence"
       },
@@ -62851,42 +62978,42 @@
        "method": "persistence"
       },
       "yougov_xtab_approve_race_black": {
-       "mean": 14.0,
+       "mean": 11.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_race_hispanic": {
-       "mean": 41.0,
+       "mean": 40.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_male": {
-       "mean": 43.0,
-       "sd": 1.5,
-       "method": "persistence"
-      },
-      "yougov_xtab_approve_female": {
-       "mean": 33.0,
-       "sd": 1.5,
-       "method": "persistence"
-      },
-      "yougov_xtab_approve_edu_hs_or_less": {
-       "mean": 45.0,
-       "sd": 1.5,
-       "method": "persistence"
-      },
-      "yougov_xtab_approve_edu_some_college": {
        "mean": 41.0,
        "sd": 1.5,
        "method": "persistence"
       },
+      "yougov_xtab_approve_female": {
+       "mean": 35.0,
+       "sd": 1.5,
+       "method": "persistence"
+      },
+      "yougov_xtab_approve_edu_hs_or_less": {
+       "mean": 40.0,
+       "sd": 1.5,
+       "method": "persistence"
+      },
+      "yougov_xtab_approve_edu_some_college": {
+       "mean": 39.0,
+       "sd": 1.5,
+       "method": "persistence"
+      },
       "yougov_xtab_approve_edu_college_grad": {
-       "mean": 31.0,
+       "mean": 39.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_edu_postgrad": {
-       "mean": 27.0,
+       "mean": 29.0,
        "sd": 1.5,
        "method": "persistence"
       }
@@ -62896,7 +63023,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -62905,27 +63032,27 @@
        "sd": 1.5
       },
       "yougov_xtab_approve_ind": {
-       "mean": 24.0,
+       "mean": 25.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_rep": {
-       "mean": 79.0,
+       "mean": 80.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_under_30": {
-       "mean": 34.0,
+       "mean": 33.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_30_44": {
-       "mean": 29.0,
+       "mean": 36.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_45_64": {
-       "mean": 41.0,
+       "mean": 39.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_65_up": {
-       "mean": 43.0,
+       "mean": 41.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_race_white": {
@@ -62933,35 +63060,35 @@
        "sd": 1.5
       },
       "yougov_xtab_approve_race_black": {
-       "mean": 14.0,
+       "mean": 11.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_race_hispanic": {
-       "mean": 41.0,
+       "mean": 40.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_male": {
-       "mean": 43.0,
-       "sd": 1.5
-      },
-      "yougov_xtab_approve_female": {
-       "mean": 33.0,
-       "sd": 1.5
-      },
-      "yougov_xtab_approve_edu_hs_or_less": {
-       "mean": 45.0,
-       "sd": 1.5
-      },
-      "yougov_xtab_approve_edu_some_college": {
        "mean": 41.0,
        "sd": 1.5
       },
+      "yougov_xtab_approve_female": {
+       "mean": 35.0,
+       "sd": 1.5
+      },
+      "yougov_xtab_approve_edu_hs_or_less": {
+       "mean": 40.0,
+       "sd": 1.5
+      },
+      "yougov_xtab_approve_edu_some_college": {
+       "mean": 39.0,
+       "sd": 1.5
+      },
       "yougov_xtab_approve_edu_college_grad": {
-       "mean": 31.0,
+       "mean": 39.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_edu_postgrad": {
-       "mean": 27.0,
+       "mean": 29.0,
        "sd": 1.5
       }
      }
@@ -63015,25 +63142,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 39.0,
      "sd": 1.53
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 37.57,
      "sd": 1.5
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 38.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 36.03,
      "sd": 3.51
@@ -63087,25 +63214,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 19.5,
      "sd": 1.87
     },
     "ewma": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 19.8,
      "sd": 2.0
     },
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 20.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "number",
      "mean": 19.16,
      "sd": 4.16
@@ -63191,22 +63318,22 @@
      "yougov_xtab_approve_edu_postgrad": "Economist/YouGov Trump approval, postgraduates"
     },
     "history_points": {
-     "yougov_xtab_approve_dem": 89,
-     "yougov_xtab_approve_ind": 89,
-     "yougov_xtab_approve_rep": 89,
-     "yougov_xtab_approve_age_under_30": 89,
-     "yougov_xtab_approve_age_30_44": 89,
-     "yougov_xtab_approve_age_45_64": 89,
-     "yougov_xtab_approve_age_65_up": 89,
-     "yougov_xtab_approve_race_white": 89,
-     "yougov_xtab_approve_race_black": 89,
-     "yougov_xtab_approve_race_hispanic": 89,
-     "yougov_xtab_approve_male": 89,
-     "yougov_xtab_approve_female": 89,
-     "yougov_xtab_approve_edu_hs_or_less": 89,
-     "yougov_xtab_approve_edu_some_college": 89,
-     "yougov_xtab_approve_edu_college_grad": 89,
-     "yougov_xtab_approve_edu_postgrad": 89
+     "yougov_xtab_approve_dem": 90,
+     "yougov_xtab_approve_ind": 90,
+     "yougov_xtab_approve_rep": 90,
+     "yougov_xtab_approve_age_under_30": 90,
+     "yougov_xtab_approve_age_30_44": 90,
+     "yougov_xtab_approve_age_45_64": 90,
+     "yougov_xtab_approve_age_65_up": 90,
+     "yougov_xtab_approve_race_white": 90,
+     "yougov_xtab_approve_race_black": 90,
+     "yougov_xtab_approve_race_hispanic": 90,
+     "yougov_xtab_approve_male": 90,
+     "yougov_xtab_approve_female": 90,
+     "yougov_xtab_approve_edu_hs_or_less": 90,
+     "yougov_xtab_approve_edu_some_college": 90,
+     "yougov_xtab_approve_edu_college_grad": 90,
+     "yougov_xtab_approve_edu_postgrad": 90
     },
     "baselines": {
      "persistence": {
@@ -63216,32 +63343,32 @@
        "method": "persistence"
       },
       "yougov_xtab_approve_ind": {
-       "mean": 24.0,
+       "mean": 25.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_rep": {
-       "mean": 79.0,
+       "mean": 80.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_under_30": {
-       "mean": 34.0,
+       "mean": 33.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_30_44": {
-       "mean": 29.0,
+       "mean": 36.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_45_64": {
-       "mean": 41.0,
+       "mean": 39.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_age_65_up": {
-       "mean": 43.0,
+       "mean": 41.0,
        "sd": 1.5,
        "method": "persistence"
       },
@@ -63251,42 +63378,42 @@
        "method": "persistence"
       },
       "yougov_xtab_approve_race_black": {
-       "mean": 14.0,
+       "mean": 11.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_race_hispanic": {
-       "mean": 41.0,
+       "mean": 40.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_male": {
-       "mean": 43.0,
-       "sd": 1.5,
-       "method": "persistence"
-      },
-      "yougov_xtab_approve_female": {
-       "mean": 33.0,
-       "sd": 1.5,
-       "method": "persistence"
-      },
-      "yougov_xtab_approve_edu_hs_or_less": {
-       "mean": 45.0,
-       "sd": 1.5,
-       "method": "persistence"
-      },
-      "yougov_xtab_approve_edu_some_college": {
        "mean": 41.0,
        "sd": 1.5,
        "method": "persistence"
       },
+      "yougov_xtab_approve_female": {
+       "mean": 35.0,
+       "sd": 1.5,
+       "method": "persistence"
+      },
+      "yougov_xtab_approve_edu_hs_or_less": {
+       "mean": 40.0,
+       "sd": 1.5,
+       "method": "persistence"
+      },
+      "yougov_xtab_approve_edu_some_college": {
+       "mean": 39.0,
+       "sd": 1.5,
+       "method": "persistence"
+      },
       "yougov_xtab_approve_edu_college_grad": {
-       "mean": 31.0,
+       "mean": 39.0,
        "sd": 1.5,
        "method": "persistence"
       },
       "yougov_xtab_approve_edu_postgrad": {
-       "mean": 27.0,
+       "mean": 29.0,
        "sd": 1.5,
        "method": "persistence"
       }
@@ -63296,7 +63423,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-16T16:35Z",
+     "filed": "2026-10-16T21:04Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -63305,27 +63432,27 @@
        "sd": 1.5
       },
       "yougov_xtab_approve_ind": {
-       "mean": 24.0,
+       "mean": 25.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_rep": {
-       "mean": 79.0,
+       "mean": 80.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_under_30": {
-       "mean": 34.0,
+       "mean": 33.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_30_44": {
-       "mean": 29.0,
+       "mean": 36.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_45_64": {
-       "mean": 41.0,
+       "mean": 39.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_age_65_up": {
-       "mean": 43.0,
+       "mean": 41.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_race_white": {
@@ -63333,35 +63460,35 @@
        "sd": 1.5
       },
       "yougov_xtab_approve_race_black": {
-       "mean": 14.0,
+       "mean": 11.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_race_hispanic": {
-       "mean": 41.0,
+       "mean": 40.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_male": {
-       "mean": 43.0,
-       "sd": 1.5
-      },
-      "yougov_xtab_approve_female": {
-       "mean": 33.0,
-       "sd": 1.5
-      },
-      "yougov_xtab_approve_edu_hs_or_less": {
-       "mean": 45.0,
-       "sd": 1.5
-      },
-      "yougov_xtab_approve_edu_some_college": {
        "mean": 41.0,
        "sd": 1.5
       },
+      "yougov_xtab_approve_female": {
+       "mean": 35.0,
+       "sd": 1.5
+      },
+      "yougov_xtab_approve_edu_hs_or_less": {
+       "mean": 40.0,
+       "sd": 1.5
+      },
+      "yougov_xtab_approve_edu_some_college": {
+       "mean": 39.0,
+       "sd": 1.5
+      },
       "yougov_xtab_approve_edu_college_grad": {
-       "mean": 31.0,
+       "mean": 39.0,
        "sd": 1.5
       },
       "yougov_xtab_approve_edu_postgrad": {
-       "mean": 27.0,
+       "mean": 29.0,
        "sd": 1.5
       }
      }
@@ -64847,7 +64974,7 @@
   }
  },
  "leaderboard": {
-  "resolved_rounds": 97,
+  "resolved_rounds": 98,
   "entries": [
    {
     "entrant": "vac-sentiment-expectations",
@@ -65555,9 +65682,10 @@
  },
  "season0_main": {
   "since": "2026-09-30T00:00:00Z",
-  "scored_rounds": 29,
+  "scored_rounds": 30,
   "round_ids": [
    "yougov-xtab-2026-w41",
+   "yougov-xtab-2026-w42",
    "civiqs-2026-w40-angry-share",
    "civiqs-2026-w40-econ-direction",
    "civiqs-2026-w40-inflation-concern",
@@ -65591,7 +65719,7 @@
    {
     "entrant": "vac-sentiment-expectations",
     "rounds": 9,
-    "answered": "9/29",
+    "answered": "9/30",
     "mean_skill": 0.6638,
     "mean_crps": 0.2321,
     "crps_rounds": 9
@@ -65599,7 +65727,7 @@
    {
     "entrant": "vac-collective-attention",
     "rounds": 2,
-    "answered": "2/29",
+    "answered": "2/30",
     "mean_skill": 0.5607,
     "mean_crps": null,
     "crps_rounds": 0
@@ -65607,175 +65735,175 @@
    {
     "entrant": "vac-population-profiles",
     "rounds": 3,
-    "answered": "3/29",
+    "answered": "3/30",
     "mean_skill": 0.412,
     "mean_crps": null,
     "crps_rounds": 0
    },
    {
     "entrant": "h2oai-superagent",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": 0.2948,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": 0.2885,
     "mean_crps": 0.5374,
     "crps_rounds": 24
    },
    {
     "entrant": "vac-public-opinion",
     "rounds": 6,
-    "answered": "6/29",
+    "answered": "6/30",
     "mean_skill": 0.2749,
     "mean_crps": 0.7507,
     "crps_rounds": 6
    },
    {
     "entrant": "apodex-futureflow",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": 0.2556,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": 0.2531,
     "mean_crps": 0.5355,
     "crps_rounds": 24
    },
    {
     "entrant": "h2oai-marina",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": 0.1659,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": 0.1634,
     "mean_crps": 0.5105,
     "crps_rounds": 24
    },
    {
     "entrant": "yulan-onesim",
     "rounds": 15,
-    "answered": "15/29",
+    "answered": "15/30",
     "mean_skill": 0.1468,
     "mean_crps": 0.6168,
     "crps_rounds": 12
    },
    {
     "entrant": "worldvac-base",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": 0.1274,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": 0.1231,
     "mean_crps": 0.7566,
     "crps_rounds": 24
    },
    {
     "entrant": "crowd",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": 0.1096,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": 0.099,
     "mean_crps": 0.6601,
     "crps_rounds": 24
    },
    {
     "entrant": "claude-sonnet-web-superfc",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": 0.043,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": 0.0456,
     "mean_crps": 0.7042,
     "crps_rounds": 24
    },
    {
     "entrant": "deepseek-pro-web",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": 0.0319,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": 0.0235,
     "mean_crps": 0.7863,
     "crps_rounds": 24
    },
    {
-    "entrant": "glm-web",
-    "rounds": 28,
-    "answered": "28/29",
-    "mean_skill": 0.0127,
-    "mean_crps": 0.7197,
-    "crps_rounds": 23
-   },
-   {
     "entrant": "gemini-pro-web",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": 0.0108,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": 0.0153,
     "mean_crps": 0.9488,
     "crps_rounds": 24
    },
    {
-    "entrant": "persistence",
+    "entrant": "glm-web",
     "rounds": 29,
-    "answered": "29/29",
+    "answered": "29/30",
+    "mean_skill": 0.0132,
+    "mean_crps": 0.7197,
+    "crps_rounds": 23
+   },
+   {
+    "entrant": "persistence",
+    "rounds": 30,
+    "answered": "30/30",
     "mean_skill": 0.0,
     "mean_crps": 0.8013,
     "crps_rounds": 24
    },
    {
     "entrant": "grok-web",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": -0.0043,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": -0.0,
     "mean_crps": 0.7707,
     "crps_rounds": 24
    },
    {
     "entrant": "deepseek-pro-web-superfc",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": -0.0366,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": -0.0351,
     "mean_crps": 0.7308,
     "crps_rounds": 24
    },
    {
     "entrant": "gemini-pro-web-superfc",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": -0.0418,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": -0.0355,
     "mean_crps": 0.8956,
     "crps_rounds": 24
    },
    {
     "entrant": "gpt-5.6-luna-web",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": -0.0471,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": -0.0515,
     "mean_crps": 0.7981,
     "crps_rounds": 24
    },
    {
-    "entrant": "glm-web-superfc",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": -0.0623,
-    "mean_crps": 0.8344,
-    "crps_rounds": 24
-   },
-   {
     "entrant": "claude-sonnet-web",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": -0.0656,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": -0.0598,
     "mean_crps": 0.7788,
     "crps_rounds": 24
    },
    {
     "entrant": "gpt-5.6-luna-web-superfc",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": -0.0666,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": -0.0654,
     "mean_crps": 0.7769,
     "crps_rounds": 24
    },
    {
+    "entrant": "glm-web-superfc",
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": -0.0656,
+    "mean_crps": 0.8344,
+    "crps_rounds": 24
+   },
+   {
     "entrant": "grok-web-superfc",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": -0.2703,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": -0.2578,
     "mean_crps": 0.9919,
     "crps_rounds": 24
    },
    {
     "entrant": "ewma",
     "rounds": 24,
-    "answered": "24/29",
+    "answered": "24/30",
     "mean_skill": -0.5324,
     "mean_crps": 0.9537,
     "crps_rounds": 24
@@ -65783,23 +65911,23 @@
    {
     "entrant": "trend",
     "rounds": 24,
-    "answered": "24/29",
+    "answered": "24/30",
     "mean_skill": -0.666,
     "mean_crps": 1.1063,
     "crps_rounds": 24
    },
    {
     "entrant": "zhengzheng-agent",
-    "rounds": 29,
-    "answered": "29/29",
-    "mean_skill": -2.4709,
+    "rounds": 30,
+    "answered": "30/30",
+    "mean_skill": -2.8521,
     "mean_crps": 0.7674,
     "crps_rounds": 24
    },
    {
     "entrant": "climatology",
     "rounds": 24,
-    "answered": "24/29",
+    "answered": "24/30",
     "mean_skill": -3.7773,
     "mean_crps": 2.4457,
     "crps_rounds": 24
@@ -65807,7 +65935,7 @@
   ]
  },
  "profile": {
-  "scored_rounds": 15,
+  "scored_rounds": 16,
   "rounds": [
    {
     "round_id": "trends-basket-2026-09-05",
@@ -68573,6 +68701,224 @@
     ]
    },
    {
+    "round_id": "yougov-xtab-2026-w42",
+    "release_at": "2026-10-13T14:00:00Z",
+    "cells": [
+     "yougov_xtab_approve_dem",
+     "yougov_xtab_approve_ind",
+     "yougov_xtab_approve_rep",
+     "yougov_xtab_approve_age_under_30",
+     "yougov_xtab_approve_age_30_44",
+     "yougov_xtab_approve_age_45_64",
+     "yougov_xtab_approve_age_65_up",
+     "yougov_xtab_approve_race_white",
+     "yougov_xtab_approve_race_black",
+     "yougov_xtab_approve_race_hispanic",
+     "yougov_xtab_approve_male",
+     "yougov_xtab_approve_female",
+     "yougov_xtab_approve_edu_hs_or_less",
+     "yougov_xtab_approve_edu_some_college",
+     "yougov_xtab_approve_edu_college_grad",
+     "yougov_xtab_approve_edu_postgrad"
+    ],
+    "n_cells": 16,
+    "persistence_energy": 9.5294,
+    "outcome": {
+     "yougov_xtab_approve_dem": 4.0,
+     "yougov_xtab_approve_ind": 25.0,
+     "yougov_xtab_approve_rep": 80.0,
+     "yougov_xtab_approve_age_under_30": 33.0,
+     "yougov_xtab_approve_age_30_44": 36.0,
+     "yougov_xtab_approve_age_45_64": 39.0,
+     "yougov_xtab_approve_age_65_up": 41.0,
+     "yougov_xtab_approve_race_white": 42.0,
+     "yougov_xtab_approve_race_black": 11.0,
+     "yougov_xtab_approve_race_hispanic": 40.0,
+     "yougov_xtab_approve_male": 41.0,
+     "yougov_xtab_approve_female": 35.0,
+     "yougov_xtab_approve_edu_hs_or_less": 40.0,
+     "yougov_xtab_approve_edu_some_college": 39.0,
+     "yougov_xtab_approve_edu_college_grad": 39.0,
+     "yougov_xtab_approve_edu_postgrad": 29.0
+    },
+    "resolution": {
+     "method": "each cell's own series value as of the release date, from the Economist/YouGov tracker workbook, the wave dated inside the seven days ending on the release date; the same freeze the round's per-cell persistence null used",
+     "release_date": "2026-10-13",
+     "observed_dates": {
+      "yougov_xtab_approve_dem": "2026-10-12",
+      "yougov_xtab_approve_ind": "2026-10-12",
+      "yougov_xtab_approve_rep": "2026-10-12",
+      "yougov_xtab_approve_age_under_30": "2026-10-12",
+      "yougov_xtab_approve_age_30_44": "2026-10-12",
+      "yougov_xtab_approve_age_45_64": "2026-10-12",
+      "yougov_xtab_approve_age_65_up": "2026-10-12",
+      "yougov_xtab_approve_race_white": "2026-10-12",
+      "yougov_xtab_approve_race_black": "2026-10-12",
+      "yougov_xtab_approve_race_hispanic": "2026-10-12",
+      "yougov_xtab_approve_male": "2026-10-12",
+      "yougov_xtab_approve_female": "2026-10-12",
+      "yougov_xtab_approve_edu_hs_or_less": "2026-10-12",
+      "yougov_xtab_approve_edu_some_college": "2026-10-12",
+      "yougov_xtab_approve_edu_college_grad": "2026-10-12",
+      "yougov_xtab_approve_edu_postgrad": "2026-10-12"
+     }
+    },
+    "entries": [
+     {
+      "entrant": "apodex-futureflow",
+      "energy": 7.805,
+      "skill": 0.181,
+      "level": 0.387,
+      "structure": 7.5806,
+      "mean_cell_crps": 1.5583
+     },
+     {
+      "entrant": "gemini-pro-web-superfc",
+      "energy": 8.1376,
+      "skill": 0.1461,
+      "level": 0.2935,
+      "structure": 8.0117,
+      "mean_cell_crps": 1.6348
+     },
+     {
+      "entrant": "gemini-pro-web",
+      "energy": 8.1369,
+      "skill": 0.1461,
+      "level": 0.2315,
+      "structure": 8.0731,
+      "mean_cell_crps": 1.6764
+     },
+     {
+      "entrant": "grok-web",
+      "energy": 8.3343,
+      "skill": 0.1254,
+      "level": 0.2602,
+      "structure": 8.249,
+      "mean_cell_crps": 1.6772
+     },
+     {
+      "entrant": "claude-sonnet-web-superfc",
+      "energy": 8.3853,
+      "skill": 0.1201,
+      "level": 0.4886,
+      "structure": 8.0924,
+      "mean_cell_crps": 1.7421
+     },
+     {
+      "entrant": "claude-sonnet-web",
+      "energy": 8.499,
+      "skill": 0.1081,
+      "level": 0.2562,
+      "structure": 8.4222,
+      "mean_cell_crps": 1.7899
+     },
+     {
+      "entrant": "h2oai-superagent",
+      "energy": 8.5144,
+      "skill": 0.1065,
+      "level": 0.1186,
+      "structure": 8.5418,
+      "mean_cell_crps": 1.7281
+     },
+     {
+      "entrant": "grok-web-superfc",
+      "energy": 8.5409,
+      "skill": 0.1037,
+      "level": 0.3674,
+      "structure": 8.3573,
+      "mean_cell_crps": 1.7158
+     },
+     {
+      "entrant": "h2oai-marina",
+      "energy": 8.6856,
+      "skill": 0.0885,
+      "level": 0.5227,
+      "structure": 8.392,
+      "mean_cell_crps": 1.7507
+     },
+     {
+      "entrant": "glm-web",
+      "energy": 9.2759,
+      "skill": 0.0266,
+      "level": 0.8698,
+      "structure": 8.5843,
+      "mean_cell_crps": 1.9131
+     },
+     {
+      "entrant": "deepseek-pro-web-superfc",
+      "energy": 9.4266,
+      "skill": 0.0108,
+      "level": 0.9211,
+      "structure": 8.6503,
+      "mean_cell_crps": 1.9171
+     },
+     {
+      "entrant": "persistence",
+      "energy": 9.5294,
+      "skill": 0.0,
+      "level": 0.6743,
+      "structure": 9.1264,
+      "mean_cell_crps": 2.0151
+     },
+     {
+      "entrant": "worldvac-base",
+      "energy": 9.5294,
+      "skill": 0.0,
+      "level": 0.6743,
+      "structure": 9.1264,
+      "mean_cell_crps": 2.0151
+     },
+     {
+      "entrant": "gpt-5.6-luna-web-superfc",
+      "energy": 9.8097,
+      "skill": -0.0294,
+      "level": 1.4063,
+      "structure": 8.3301,
+      "mean_cell_crps": 1.9767
+     },
+     {
+      "entrant": "glm-web-superfc",
+      "energy": 11.0718,
+      "skill": -0.1619,
+      "level": 1.9305,
+      "structure": 8.6715,
+      "mean_cell_crps": 2.2443
+     },
+     {
+      "entrant": "gpt-5.6-luna-web",
+      "energy": 11.2346,
+      "skill": -0.1789,
+      "level": 2.1384,
+      "structure": 8.4279,
+      "mean_cell_crps": 2.2539
+     },
+     {
+      "entrant": "crowd",
+      "energy": 11.5103,
+      "skill": -0.2079,
+      "level": 1.7689,
+      "structure": 9.8773,
+      "mean_cell_crps": 1.8715
+     },
+     {
+      "entrant": "deepseek-pro-web",
+      "energy": 11.6168,
+      "skill": -0.219,
+      "level": 1.973,
+      "structure": 9.2071,
+      "mean_cell_crps": 2.275
+     },
+     {
+      "entrant": "zhengzheng-agent",
+      "energy": 142.0703,
+      "skill": -13.9086,
+      "level": 32.8138,
+      "structure": 58.7422,
+      "mean_cell_crps": 32.1956
+     }
+    ]
+   },
+   {
     "round_id": "civiqs-profile-2026-w40",
     "release_at": "2026-10-02T22:00:00Z",
     "cells": [
@@ -69252,14 +69598,6 @@
     "mean_structure": 2.1959
    },
    {
-    "entrant": "apodex-futureflow",
-    "rounds": 7,
-    "mean_energy": 4.3075,
-    "mean_skill": 0.4344,
-    "mean_level": 0.3384,
-    "mean_structure": 4.068
-   },
-   {
     "entrant": "claude-opus-5-web",
     "rounds": 7,
     "mean_energy": 3.6388,
@@ -69268,12 +69606,12 @@
     "mean_structure": 2.5882
    },
    {
-    "entrant": "h2oai-marina",
-    "rounds": 4,
-    "mean_energy": 4.54,
-    "mean_skill": 0.3799,
-    "mean_level": 0.3299,
-    "mean_structure": 4.3272
+    "entrant": "apodex-futureflow",
+    "rounds": 8,
+    "mean_energy": 4.7447,
+    "mean_skill": 0.4028,
+    "mean_level": 0.3445,
+    "mean_structure": 4.5071
    },
    {
     "entrant": "gemini-flash-web",
@@ -69308,12 +69646,12 @@
     "mean_structure": 5.3243
    },
    {
-    "entrant": "h2oai-superagent",
+    "entrant": "h2oai-marina",
     "rounds": 5,
-    "mean_energy": 4.9643,
-    "mean_skill": 0.3167,
-    "mean_level": 0.5691,
-    "mean_structure": 4.2548
+    "mean_energy": 5.3692,
+    "mean_skill": 0.3216,
+    "mean_level": 0.3684,
+    "mean_structure": 5.1401
    },
    {
     "entrant": "qwen-3.8-web",
@@ -69324,20 +69662,28 @@
     "mean_structure": 2.8837
    },
    {
+    "entrant": "h2oai-superagent",
+    "rounds": 6,
+    "mean_energy": 5.556,
+    "mean_skill": 0.2817,
+    "mean_level": 0.494,
+    "mean_structure": 4.9693
+   },
+   {
     "entrant": "gemini-pro-web",
-    "rounds": 15,
-    "mean_energy": 5.1874,
-    "mean_skill": 0.2873,
-    "mean_level": 0.8942,
-    "mean_structure": 3.8381
+    "rounds": 16,
+    "mean_energy": 5.3718,
+    "mean_skill": 0.2785,
+    "mean_level": 0.8528,
+    "mean_structure": 4.1028
    },
    {
     "entrant": "gemini-pro-web-superfc",
-    "rounds": 15,
-    "mean_energy": 5.2355,
-    "mean_skill": 0.2786,
-    "mean_level": 0.8704,
-    "mean_structure": 4.0439
+    "rounds": 16,
+    "mean_energy": 5.4169,
+    "mean_skill": 0.2704,
+    "mean_level": 0.8343,
+    "mean_structure": 4.2919
    },
    {
     "entrant": "deepseek-flash-web-superfc",
@@ -69357,35 +69703,27 @@
    },
    {
     "entrant": "grok-web",
-    "rounds": 15,
-    "mean_energy": 5.5566,
-    "mean_skill": 0.2368,
-    "mean_level": 0.8609,
-    "mean_structure": 4.3183
+    "rounds": 16,
+    "mean_energy": 5.7302,
+    "mean_skill": 0.2299,
+    "mean_level": 0.8233,
+    "mean_structure": 4.564
    },
    {
     "entrant": "grok-web-superfc",
-    "rounds": 15,
-    "mean_energy": 5.764,
-    "mean_skill": 0.2213,
-    "mean_level": 0.9237,
-    "mean_structure": 4.3605
+    "rounds": 16,
+    "mean_energy": 5.9375,
+    "mean_skill": 0.214,
+    "mean_level": 0.889,
+    "mean_structure": 4.6103
    },
    {
     "entrant": "claude-sonnet-web-superfc",
-    "rounds": 14,
-    "mean_energy": 5.1555,
-    "mean_skill": 0.2027,
-    "mean_level": 0.761,
-    "mean_structure": 4.1331
-   },
-   {
-    "entrant": "glm-web-superfc",
-    "rounds": 14,
-    "mean_energy": 5.9136,
-    "mean_skill": 0.1932,
-    "mean_level": 0.9108,
-    "mean_structure": 4.4854
+    "rounds": 15,
+    "mean_energy": 5.3708,
+    "mean_skill": 0.1972,
+    "mean_level": 0.7428,
+    "mean_structure": 4.397
    },
    {
     "entrant": "deepseek-flash-web",
@@ -69396,36 +69734,44 @@
     "mean_structure": 4.6322
    },
    {
-    "entrant": "gpt-5.6-luna-web-superfc",
+    "entrant": "glm-web-superfc",
     "rounds": 15,
-    "mean_energy": 5.6747,
-    "mean_skill": 0.1559,
-    "mean_level": 0.8776,
-    "mean_structure": 4.3299
+    "mean_energy": 6.2575,
+    "mean_skill": 0.1695,
+    "mean_level": 0.9788,
+    "mean_structure": 4.7644
+   },
+   {
+    "entrant": "gpt-5.6-luna-web-superfc",
+    "rounds": 16,
+    "mean_energy": 5.9331,
+    "mean_skill": 0.1443,
+    "mean_level": 0.9107,
+    "mean_structure": 4.5799
    },
    {
     "entrant": "deepseek-pro-web-superfc",
-    "rounds": 15,
-    "mean_energy": 6.4179,
-    "mean_skill": 0.1484,
-    "mean_level": 1.0568,
-    "mean_structure": 4.8324
-   },
-   {
-    "entrant": "crowd",
-    "rounds": 14,
-    "mean_energy": 6.2314,
-    "mean_skill": 0.1367,
-    "mean_level": 0.886,
-    "mean_structure": 5.1129
+    "rounds": 16,
+    "mean_energy": 6.606,
+    "mean_skill": 0.1398,
+    "mean_level": 1.0483,
+    "mean_structure": 5.071
    },
    {
     "entrant": "glm-web",
+    "rounds": 16,
+    "mean_energy": 5.7996,
+    "mean_skill": 0.1287,
+    "mean_level": 0.7788,
+    "mean_structure": 4.7253
+   },
+   {
+    "entrant": "crowd",
     "rounds": 15,
-    "mean_energy": 5.5678,
-    "mean_skill": 0.1355,
-    "mean_level": 0.7727,
-    "mean_structure": 4.468
+    "mean_energy": 6.5833,
+    "mean_skill": 0.1137,
+    "mean_level": 0.9449,
+    "mean_structure": 5.4305
    },
    {
     "entrant": "gpt-5.6-terra-web-superfc",
@@ -69445,35 +69791,35 @@
    },
    {
     "entrant": "deepseek-pro-web",
-    "rounds": 15,
-    "mean_energy": 6.3832,
-    "mean_skill": 0.0592,
-    "mean_level": 1.0027,
-    "mean_structure": 4.868
+    "rounds": 16,
+    "mean_energy": 6.7103,
+    "mean_skill": 0.0418,
+    "mean_level": 1.0634,
+    "mean_structure": 5.1392
    },
    {
     "entrant": "worldvac-base",
-    "rounds": 8,
-    "mean_energy": 7.6858,
-    "mean_skill": 0.0188,
-    "mean_level": 1.188,
-    "mean_structure": 5.8532
+    "rounds": 9,
+    "mean_energy": 7.8906,
+    "mean_skill": 0.0167,
+    "mean_level": 1.1309,
+    "mean_structure": 6.2169
    },
    {
     "entrant": "persistence",
-    "rounds": 15,
-    "mean_energy": 7.5714,
-    "mean_skill": 0.0123,
-    "mean_level": 1.1093,
-    "mean_structure": 5.7102
+    "rounds": 16,
+    "mean_energy": 7.6938,
+    "mean_skill": 0.0115,
+    "mean_level": 1.0821,
+    "mean_structure": 5.9238
    },
    {
     "entrant": "gpt-5.6-luna-web",
-    "rounds": 15,
-    "mean_energy": 6.382,
-    "mean_skill": -0.0024,
-    "mean_level": 0.9586,
-    "mean_structure": 4.8634
+    "rounds": 16,
+    "mean_energy": 6.6853,
+    "mean_skill": -0.0134,
+    "mean_level": 1.0323,
+    "mean_structure": 5.0862
    },
    {
     "entrant": "gpt-5.6-terra-web",
@@ -69493,110 +69839,105 @@
    },
    {
     "entrant": "claude-sonnet-web",
-    "rounds": 14,
-    "mean_energy": 13.452,
-    "mean_skill": -0.6903,
-    "mean_level": 1.4755,
-    "mean_structure": 11.9129
+    "rounds": 15,
+    "mean_energy": 13.1218,
+    "mean_skill": -0.6371,
+    "mean_level": 1.3942,
+    "mean_structure": 11.6801
    },
    {
     "entrant": "zhengzheng-agent",
-    "rounds": 7,
-    "mean_energy": 122.8023,
-    "mean_skill": -16.6462,
-    "mean_level": 22.2566,
-    "mean_structure": 81.8566
+    "rounds": 8,
+    "mean_energy": 125.2108,
+    "mean_skill": -16.304,
+    "mean_level": 23.5762,
+    "mean_structure": 78.9673
    }
   ],
   "matched": [
    {
     "entrant": "gemini-pro-web",
-    "rounds": 15,
-    "mean_energy": 5.1874,
-    "mean_skill": 0.2873,
-    "mean_level": 0.8942,
-    "mean_structure": 3.8381
+    "rounds": 16,
+    "mean_energy": 5.3718,
+    "mean_skill": 0.2785,
+    "mean_level": 0.8528,
+    "mean_structure": 4.1028
    },
    {
     "entrant": "gemini-pro-web-superfc",
-    "rounds": 15,
-    "mean_energy": 5.2355,
-    "mean_skill": 0.2786,
-    "mean_level": 0.8704,
-    "mean_structure": 4.0439
+    "rounds": 16,
+    "mean_energy": 5.4169,
+    "mean_skill": 0.2704,
+    "mean_level": 0.8343,
+    "mean_structure": 4.2919
    },
    {
     "entrant": "grok-web",
-    "rounds": 15,
-    "mean_energy": 5.5566,
-    "mean_skill": 0.2368,
-    "mean_level": 0.8609,
-    "mean_structure": 4.3183
+    "rounds": 16,
+    "mean_energy": 5.7302,
+    "mean_skill": 0.2299,
+    "mean_level": 0.8233,
+    "mean_structure": 4.564
    },
    {
     "entrant": "grok-web-superfc",
-    "rounds": 15,
-    "mean_energy": 5.764,
-    "mean_skill": 0.2213,
-    "mean_level": 0.9237,
-    "mean_structure": 4.3605
+    "rounds": 16,
+    "mean_energy": 5.9375,
+    "mean_skill": 0.214,
+    "mean_level": 0.889,
+    "mean_structure": 4.6103
    },
    {
     "entrant": "gpt-5.6-luna-web-superfc",
-    "rounds": 15,
-    "mean_energy": 5.6747,
-    "mean_skill": 0.1559,
-    "mean_level": 0.8776,
-    "mean_structure": 4.3299
+    "rounds": 16,
+    "mean_energy": 5.9331,
+    "mean_skill": 0.1443,
+    "mean_level": 0.9107,
+    "mean_structure": 4.5799
    },
    {
     "entrant": "deepseek-pro-web-superfc",
-    "rounds": 15,
-    "mean_energy": 6.4179,
-    "mean_skill": 0.1484,
-    "mean_level": 1.0568,
-    "mean_structure": 4.8324
+    "rounds": 16,
+    "mean_energy": 6.606,
+    "mean_skill": 0.1398,
+    "mean_level": 1.0483,
+    "mean_structure": 5.071
    },
    {
     "entrant": "glm-web",
-    "rounds": 15,
-    "mean_energy": 5.5678,
-    "mean_skill": 0.1355,
-    "mean_level": 0.7727,
-    "mean_structure": 4.468
+    "rounds": 16,
+    "mean_energy": 5.7996,
+    "mean_skill": 0.1287,
+    "mean_level": 0.7788,
+    "mean_structure": 4.7253
    },
    {
     "entrant": "deepseek-pro-web",
-    "rounds": 15,
-    "mean_energy": 6.3832,
-    "mean_skill": 0.0592,
-    "mean_level": 1.0027,
-    "mean_structure": 4.868
+    "rounds": 16,
+    "mean_energy": 6.7103,
+    "mean_skill": 0.0418,
+    "mean_level": 1.0634,
+    "mean_structure": 5.1392
    },
    {
     "entrant": "persistence",
-    "rounds": 15,
-    "mean_energy": 7.5714,
-    "mean_skill": 0.0123,
-    "mean_level": 1.1093,
-    "mean_structure": 5.7102
+    "rounds": 16,
+    "mean_energy": 7.6938,
+    "mean_skill": 0.0115,
+    "mean_level": 1.0821,
+    "mean_structure": 5.9238
    },
    {
     "entrant": "gpt-5.6-luna-web",
-    "rounds": 15,
-    "mean_energy": 6.382,
-    "mean_skill": -0.0024,
-    "mean_level": 0.9586,
-    "mean_structure": 4.8634
+    "rounds": 16,
+    "mean_energy": 6.6853,
+    "mean_skill": -0.0134,
+    "mean_level": 1.0323,
+    "mean_structure": 5.0862
    }
   ],
-  "matched_rounds": 15,
-  "skipped": [
-   [
-    "yougov-xtab-2026-w42",
-    "yougov-xtab-2026-w42: cannot resolve 16 of 16 cells: yougov_xtab_approve_dem: newest observation 2026-10-05 predates the freeze 2026-10-11; nothing has published since the round froze; yougov_xtab_approve_ind: newest observation 2026-10-05 predates the freeze 2026-10-11; nothing has published since the round froze; yougov_xtab_approve_rep: newest observation 2026-10-05 predates the freeze 2026-10-11; nothing has published since the round froze ..."
-   ]
-  ],
+  "matched_rounds": 16,
+  "skipped": [],
   "note": "energy score (multivariate CRPS) over the round's cell vector; skill = 1 - ES(entrant) / ES(per-cell persistence). `matched` holds only entrants who answered every scored profile round."
  },
  "ranking": {
@@ -99715,10 +100056,6 @@
   ],
   "yougov_xtab_approve_dem": [
    {
-    "date": "2026-08-17",
-    "value": 5.0
-   },
-   {
     "date": "2026-08-24",
     "value": 2.0
    },
@@ -99745,13 +100082,13 @@
    {
     "date": "2026-10-05",
     "value": 4.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 4.0
    }
   ],
   "yougov_xtab_approve_ind": [
-   {
-    "date": "2026-08-17",
-    "value": 29.0
-   },
    {
     "date": "2026-08-24",
     "value": 28.0
@@ -99779,13 +100116,13 @@
    {
     "date": "2026-10-05",
     "value": 24.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 25.0
    }
   ],
   "yougov_xtab_approve_rep": [
-   {
-    "date": "2026-08-17",
-    "value": 82.0
-   },
    {
     "date": "2026-08-24",
     "value": 84.0
@@ -99813,13 +100150,13 @@
    {
     "date": "2026-10-05",
     "value": 79.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 80.0
    }
   ],
   "yougov_xtab_approve_age_under_30": [
-   {
-    "date": "2026-08-17",
-    "value": 30.0
-   },
    {
     "date": "2026-08-24",
     "value": 31.0
@@ -99847,13 +100184,13 @@
    {
     "date": "2026-10-05",
     "value": 34.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 33.0
    }
   ],
   "yougov_xtab_approve_age_30_44": [
-   {
-    "date": "2026-08-17",
-    "value": 33.0
-   },
    {
     "date": "2026-08-24",
     "value": 32.0
@@ -99881,13 +100218,13 @@
    {
     "date": "2026-10-05",
     "value": 29.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 36.0
    }
   ],
   "yougov_xtab_approve_age_45_64": [
-   {
-    "date": "2026-08-17",
-    "value": 46.0
-   },
    {
     "date": "2026-08-24",
     "value": 46.0
@@ -99915,13 +100252,13 @@
    {
     "date": "2026-10-05",
     "value": 41.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 39.0
    }
   ],
   "yougov_xtab_approve_age_65_up": [
-   {
-    "date": "2026-08-17",
-    "value": 45.0
-   },
    {
     "date": "2026-08-24",
     "value": 43.0
@@ -99949,13 +100286,13 @@
    {
     "date": "2026-10-05",
     "value": 43.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 41.0
    }
   ],
   "yougov_xtab_approve_race_white": [
-   {
-    "date": "2026-08-17",
-    "value": 45.0
-   },
    {
     "date": "2026-08-24",
     "value": 46.0
@@ -99983,13 +100320,13 @@
    {
     "date": "2026-10-05",
     "value": 42.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 42.0
    }
   ],
   "yougov_xtab_approve_race_black": [
-   {
-    "date": "2026-08-17",
-    "value": 14.0
-   },
    {
     "date": "2026-08-24",
     "value": 14.0
@@ -100017,13 +100354,13 @@
    {
     "date": "2026-10-05",
     "value": 14.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 11.0
    }
   ],
   "yougov_xtab_approve_race_hispanic": [
-   {
-    "date": "2026-08-17",
-    "value": 40.0
-   },
    {
     "date": "2026-08-24",
     "value": 31.0
@@ -100051,13 +100388,13 @@
    {
     "date": "2026-10-05",
     "value": 41.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 40.0
    }
   ],
   "yougov_xtab_approve_male": [
-   {
-    "date": "2026-08-17",
-    "value": 45.0
-   },
    {
     "date": "2026-08-24",
     "value": 45.0
@@ -100085,13 +100422,13 @@
    {
     "date": "2026-10-05",
     "value": 43.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 41.0
    }
   ],
   "yougov_xtab_approve_female": [
-   {
-    "date": "2026-08-17",
-    "value": 36.0
-   },
    {
     "date": "2026-08-24",
     "value": 35.0
@@ -100119,13 +100456,13 @@
    {
     "date": "2026-10-05",
     "value": 33.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 35.0
    }
   ],
   "yougov_xtab_approve_edu_hs_or_less": [
-   {
-    "date": "2026-08-17",
-    "value": 50.0
-   },
    {
     "date": "2026-08-24",
     "value": 47.0
@@ -100153,13 +100490,13 @@
    {
     "date": "2026-10-05",
     "value": 45.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 40.0
    }
   ],
   "yougov_xtab_approve_edu_some_college": [
-   {
-    "date": "2026-08-17",
-    "value": 39.0
-   },
    {
     "date": "2026-08-24",
     "value": 40.0
@@ -100187,13 +100524,13 @@
    {
     "date": "2026-10-05",
     "value": 41.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 39.0
    }
   ],
   "yougov_xtab_approve_edu_college_grad": [
-   {
-    "date": "2026-08-17",
-    "value": 36.0
-   },
    {
     "date": "2026-08-24",
     "value": 34.0
@@ -100221,13 +100558,13 @@
    {
     "date": "2026-10-05",
     "value": 31.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 39.0
    }
   ],
   "yougov_xtab_approve_edu_postgrad": [
-   {
-    "date": "2026-08-17",
-    "value": 31.0
-   },
    {
     "date": "2026-08-24",
     "value": 34.0
@@ -100255,6 +100592,10 @@
    {
     "date": "2026-10-05",
     "value": 27.0
+   },
+   {
+    "date": "2026-10-12",
+    "value": 29.0
    }
   ],
   "generic_ballot_margin": [
@@ -103545,8 +103886,8 @@
   "sb_approval": {
    "source": "sb_approval",
    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS-FKWVTTFtJT6u56e0bqdfoMcXvDO1DUChsJ3jQAMB2lZk2SMqVfmg7dGjclTYkYWz-Pm5lfcLPjp4/pub?output=csv",
-   "fetched_at": "2026-10-16T16:38:21Z",
-   "sha256": "363e6cd2f106aedb73d7ee4378aca182ba75602662d2fd86c958a9fa37fd8140",
+   "fetched_at": "2026-10-16T21:06:52Z",
+   "sha256": "e3cc1b2832eca108a347ba1fdd05c80b7c28d25516cd9e7737a97f1633945caf",
    "bytes": 1711050,
    "file": "sources/sb_approval/2026-10-16.csv",
    "note": "Silver Bulletin poll database, published as a Google Sheet"
@@ -103554,8 +103895,8 @@
   "sb_generic": {
    "source": "sb_generic",
    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRsvXNCZ0ubJr8D_yNcU5q6C0_HBa35K7oDK03KpO7Ca43UwdXaIdvVLWoXEmHHph0EREz5430Hm5yZ/pub?output=csv",
-   "fetched_at": "2026-10-16T16:38:22Z",
-   "sha256": "1b29ceece092726a08fed6f1590de5faf58c26b78b4f49e861e0f73e8ccba481",
+   "fetched_at": "2026-10-16T21:06:52Z",
+   "sha256": "b0625bede27a3a8678a4d171bde92c56765f8f31d40e3257631989e9c291dd35",
    "bytes": 174567,
    "file": "sources/sb_generic/2026-10-16.csv",
    "note": "Silver Bulletin generic-ballot database, published as a Google Sheet"
@@ -103563,7 +103904,7 @@
   "umich": {
    "source": "umich",
    "url": "http://www.sca.isr.umich.edu/files/tbmics.csv",
-   "fetched_at": "2026-10-16T16:38:23Z",
+   "fetched_at": "2026-10-16T21:06:53Z",
    "sha256": "367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a",
    "bytes": 14400,
    "file": "sources/umich/2026-10-16.json",
@@ -103572,8 +103913,8 @@
   "aaii": {
    "source": "aaii",
    "url": "https://www.aaii.com/sentimentsurvey/sent_results",
-   "fetched_at": "2026-10-16T16:38:23Z",
-   "sha256": "8c7b56974cd9464d41f5d5cd0ee97c076a553df2181fa96438bee043d276f98a",
+   "fetched_at": "2026-10-16T21:06:53Z",
+   "sha256": "efdbb7624345c52b19462d876e2eadd3ef0fa1c95c2ba7de27e74f8b87c8149d",
    "bytes": 46280,
    "file": "sources/aaii/2026-10-16.html",
    "note": "AAII sentiment survey results page, a ~22-week rolling window parsed against the response's own date 2026-10-16; the full 1987-present .xls is OLE2 and unreadable without a dependency"
@@ -107363,7 +107704,7 @@
    "manifest_sha256": "829064d1efdeeffe9b3408dec90edaa783be0a5bc77490ce71fdd7633f25ff05",
    "proof": true,
    "proof_file": "stamps/trends-basket-2026-10-24.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-16T14:00:00Z",
    "built_at": "2026-10-16T16:36:45Z",
    "forecast_sha256": {
@@ -107392,7 +107733,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "wiki-top10-2026-10-25": {
    "round_id": "wiki-top10-2026-10-25",
@@ -107401,7 +107742,7 @@
    "manifest_sha256": "01ca72dd0060b1f8dda1601459e6b729df1ff196e2989f963eedee9cba0bcdd4",
    "proof": true,
    "proof_file": "stamps/wiki-top10-2026-10-25.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-16T14:00:00Z",
    "built_at": "2026-10-16T16:36:47Z",
    "forecast_sha256": {
@@ -107429,7 +107770,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w38-econ-now": {
    "round_id": "civiqs-2026-w38-econ-now",
@@ -108331,8 +108672,8 @@
   {
    "source": "civiqs",
    "state": "stale",
-   "fetched_days": 0.7,
-   "changed_days": 4.7,
+   "fetched_days": 0.9,
+   "changed_days": 4.9,
    "budget_fetch_days": 2,
    "budget_change_days": 4,
    "url": null,
@@ -108341,176 +108682,176 @@
    "tracker_health": [
     {
      "key": "approve_president_trump_2025",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.age-18-34",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.age-35-49",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.age-50-64",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.age-65_",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.education-College_Graduate",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.education-Non-College_Graduate",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.education-Postgraduate",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.gender-Female",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.gender-Male",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.party-Democrat",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.party-Independent",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.party-Republican",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.race-Black_or_African-American",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.race-Hispanic_Latino",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.race-Other",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "approve_president_trump_2025.race-White",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "describe_feeling_us",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 10,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "economy_family_retro",
-     "fetched_days": 0.7,
-     "changed_days": 4.7,
+     "fetched_days": 0.9,
+     "changed_days": 4.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-12"
     },
     {
      "key": "economy_us_direction",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "economy_us_now",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "inflation_impact",
-     "fetched_days": 0.7,
-     "changed_days": 4.7,
+     "fetched_days": 0.9,
+     "changed_days": 4.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-16",
      "newest_reading": "2026-10-12"
@@ -108528,7 +108869,7 @@
   {
    "source": "sb_approval",
    "state": "ok",
-   "fetched_days": -0.0,
+   "fetched_days": 0.0,
    "changed_days": 0.0,
    "budget_fetch_days": 2,
    "budget_change_days": 7,
@@ -108538,7 +108879,7 @@
   {
    "source": "sb_generic",
    "state": "ok",
-   "fetched_days": -0.0,
+   "fetched_days": 0.0,
    "changed_days": 0.0,
    "budget_fetch_days": 2,
    "budget_change_days": 10,
@@ -108549,7 +108890,7 @@
    "source": "umich",
    "state": "ok",
    "fetched_days": -0.0,
-   "changed_days": 6.8,
+   "changed_days": 6.9,
    "budget_fetch_days": 3,
    "budget_change_days": 40,
    "url": "http://www.sca.isr.umich.edu/files/tbmics.csv",
@@ -108557,7 +108898,7 @@
   }
  ],
  "operator_status": {
-  "generated_at": "2026-10-16T16:38:20Z",
+  "generated_at": "2026-10-16T21:06:52Z",
   "source_states": [
    {
     "attempts": 1,
@@ -108570,7 +108911,7 @@
     "required_action": "none",
     "evidence": [
      "fetched_days=-0.0; changed_days=-0.0; fetch_budget=3; change_budget=12",
-     "sources/aaii/2026-10-16.html sha256=8c7b56974cd9464d41f5d5cd0ee97c076a553df2181fa96438bee043d276f98a"
+     "sources/aaii/2026-10-16.html sha256=efdbb7624345c52b19462d876e2eadd3ef0fa1c95c2ba7de27e74f8b87c8149d"
     ],
     "alert": false,
     "source": "aaii",
@@ -108579,7 +108920,7 @@
    {
     "attempts": 1,
     "last_error": "economy_family_retro: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_family_retro; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact",
-    "next_retry": "2026-10-16T22:38:20Z",
+    "next_retry": "2026-10-17T03:06:52Z",
     "next_lock": "2026-10-18T14:00:00Z",
     "next_deadline": "2026-10-18T14:00:00Z",
     "route": "ssa.series:civiqs",
@@ -108587,7 +108928,7 @@
     "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
     "evidence": [
      "civiqs/economy_family_retro (51 snapshots; newest 2026-10-16); civiqs/inflation_impact (50 snapshots; newest 2026-10-16)",
-     "fetched_days=0.7; changed_days=4.7; fetch_budget=2; change_budget=4; stale_keys=economy_family_retro,inflation_impact",
+     "fetched_days=0.9; changed_days=4.9; fetch_budget=2; change_budget=4; stale_keys=economy_family_retro,inflation_impact",
      "live attempt failed; same-source archive used"
     ],
     "alert": true,
@@ -108636,8 +108977,8 @@
     "estimated_spend": 0.0,
     "required_action": "none",
     "evidence": [
-     "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
-     "sources/sb_approval/2026-10-16.csv sha256=363e6cd2f106aedb73d7ee4378aca182ba75602662d2fd86c958a9fa37fd8140"
+     "fetched_days=0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
+     "sources/sb_approval/2026-10-16.csv sha256=e3cc1b2832eca108a347ba1fdd05c80b7c28d25516cd9e7737a97f1633945caf"
     ],
     "alert": false,
     "source": "sb_approval",
@@ -108653,8 +108994,8 @@
     "estimated_spend": 0.0,
     "required_action": "none",
     "evidence": [
-     "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
-     "sources/sb_generic/2026-10-16.csv sha256=1b29ceece092726a08fed6f1590de5faf58c26b78b4f49e861e0f73e8ccba481"
+     "fetched_days=0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
+     "sources/sb_generic/2026-10-16.csv sha256=b0625bede27a3a8678a4d171bde92c56765f8f31d40e3257631989e9c291dd35"
     ],
     "alert": false,
     "source": "sb_generic",
@@ -108718,7 +109059,7 @@
     "estimated_spend": 0.0,
     "required_action": "none",
     "evidence": [
-     "fetched_days=-0.0; changed_days=6.8; fetch_budget=3; change_budget=40",
+     "fetched_days=-0.0; changed_days=6.9; fetch_budget=3; change_budget=40",
      "sources/umich/2026-10-16.json sha256=367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a"
     ],
     "alert": false,
