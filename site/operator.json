@@ -3,7 +3,14 @@
     {
       "id": "civiqs",
       "kind": "source",
-      "last_error": "economy_us_now: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_now; economy_us_direction: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_direction; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact; describe_feeling_us: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/describe_feeling_us",
+      "last_error": null,
+      "required_action": "inspect upstream freshness; do not resolve a new round until the source moves",
+      "state": "stale"
+    },
+    {
+      "id": "ranking_wikitop",
+      "kind": "source",
+      "last_error": "wiki-top10-2026-10-18/2026-10-18: HTTPError: 404 Client Error: Not Found for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/2026/10/16; wiki-top10-2026-10-25/2026-10-18: HTTPError: 404 Client Error: Not Found for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/2026/10/16; wiki-top10-2026-11-01/2026-10-18: HTTPError: 404 Client Error: Not Found for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/2026/10/16",
       "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
       "state": "stale"
     }
@@ -19,9 +26,9 @@
     },
     "sources": {
       "deadline_risk": 0,
-      "healthy": 12,
+      "healthy": 11,
       "retryable_failure": 0,
-      "stale": 1,
+      "stale": 2,
       "unresolvable": 0
     }
   },
@@ -45,11 +52,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "claude-sonnet-web-superfc",
-      "estimated_spend": 0.07065,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/hh-2026-10-approval/claude-sonnet-web-superfc.json"
+        "forecast=forecasts/hh-2026-10-approval/claude-sonnet-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
@@ -555,11 +562,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "claude-sonnet-web-superfc",
-      "estimated_spend": 0.07065,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/yougov-2026-w43-strong-approval/claude-sonnet-web-superfc.json"
+        "forecast=forecasts/yougov-2026-w43-strong-approval/claude-sonnet-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
@@ -691,11 +698,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "gpt-5.6-luna-web-superfc",
-      "estimated_spend": 0.046875,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/yougov-2026-w43-strong-approval/gpt-5.6-luna-web-superfc.json"
+        "forecast=forecasts/yougov-2026-w43-strong-approval/gpt-5.6-luna-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
@@ -1047,7 +1054,7 @@
       "state": "succeeded"
     }
   ],
-  "generated_at": "2026-10-17T20:37:06Z",
+  "generated_at": "2026-10-18T04:29:49Z",
   "source_states": [
     {
       "alert": false,
@@ -1055,7 +1062,7 @@
       "estimated_spend": 0.0,
       "evidence": [
         "fetched_days=-0.0; changed_days=-0.0; fetch_budget=3; change_budget=12",
-        "sources/aaii/2026-10-17.html sha256=efdbb7624345c52b19462d876e2eadd3ef0fa1c95c2ba7de27e74f8b87c8149d"
+        "sources/aaii/2026-10-18.html sha256=efdbb7624345c52b19462d876e2eadd3ef0fa1c95c2ba7de27e74f8b87c8149d"
       ],
       "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
@@ -1071,15 +1078,14 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "civiqs/describe_feeling_us (51 snapshots; newest 2026-10-17); civiqs/economy_us_direction (52 snapshots; newest 2026-10-17); civiqs/economy_us_now (52 snapshots; newest 2026-10-17); civiqs/inflation_impact (51 snapshots; newest 2026-10-17)",
-        "fetched_days=0.9; changed_days=5.9; fetch_budget=2; change_budget=4; stale_keys=inflation_impact",
-        "live attempt failed; same-source archive used"
+        "22 validated non-empty series",
+        "fetched_days=0.2; changed_days=6.2; fetch_budget=2; change_budget=4; stale_keys=inflation_impact"
       ],
-      "last_error": "economy_us_now: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_now; economy_us_direction: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_direction; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact; describe_feeling_us: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/describe_feeling_us",
+      "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
       "next_lock": "2026-10-18T14:00:00Z",
-      "next_retry": "2026-10-18T02:37:06Z",
-      "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
+      "next_retry": null,
+      "required_action": "inspect upstream freshness; do not resolve a new round until the source moves",
       "route": "ssa.series:civiqs",
       "source": "civiqs",
       "state": "stale"
@@ -1101,28 +1107,29 @@
       "state": "healthy"
     },
     {
-      "alert": false,
+      "alert": true,
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "57 complete weekly observations across 9 round(s)"
+        "live attempt failed; same-source archive used",
+        "same-source Wikimedia daily-top archive retained other complete weeks"
       ],
-      "last_error": null,
+      "last_error": "wiki-top10-2026-10-18/2026-10-18: HTTPError: 404 Client Error: Not Found for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/2026/10/16; wiki-top10-2026-10-25/2026-10-18: HTTPError: 404 Client Error: Not Found for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/2026/10/16; wiki-top10-2026-11-01/2026-10-18: HTTPError: 404 Client Error: Not Found for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/2026/10/16",
       "next_deadline": "2026-10-18T14:00:00Z",
       "next_lock": "2026-10-18T14:00:00Z",
-      "next_retry": null,
-      "required_action": "none",
+      "next_retry": "2026-10-18T10:29:49Z",
+      "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
       "route": "ssa.ranking:ranking_wikitop",
       "source": "ranking_wikitop",
-      "state": "healthy"
+      "state": "stale"
     },
     {
       "alert": false,
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
-        "sources/sb_approval/2026-10-17.csv sha256=e1ba4bf357611ab304692ecfe3d40e9b3a97581df98cbe791ba12b2ac4d1106c"
+        "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
+        "sources/sb_approval/2026-10-18.csv sha256=f4f963c78e73115ff89715f3127ca48f3b0b8abc35a2692edaa9e63ee1c1ecb5"
       ],
       "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
@@ -1139,7 +1146,7 @@
       "estimated_spend": 0.0,
       "evidence": [
         "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
-        "sources/sb_generic/2026-10-17.csv sha256=6aff71cc78e8435ea6248558a6292624ce6290607ce09f32ac277d3bdf111a38"
+        "sources/sb_generic/2026-10-18.csv sha256=76b751e7604187555f5825c58c6d41e2b236c7d996c69884d9b28c213b2a8956"
       ],
       "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
@@ -1203,8 +1210,8 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=7.9; fetch_budget=3; change_budget=40",
-        "sources/umich/2026-10-17.json sha256=367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a"
+        "fetched_days=-0.0; changed_days=8.2; fetch_budget=3; change_budget=40",
+        "sources/umich/2026-10-18.json sha256=367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a"
       ],
       "last_error": null,
       "next_deadline": "2026-10-18T14:00:00Z",
