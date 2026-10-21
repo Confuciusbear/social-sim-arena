@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:12:45Z",
+ "generated_at": "2026-10-21T21:42:19Z",
  "season": 0,
  "trackers": {
   "trump_approval_avg": {
@@ -56419,7 +56419,7 @@
      "sealed": true
     },
     "h2oai-marina": {
-     "filed": "2026-10-21T03:00:49.360596Z",
+     "filed": "2026-10-21T21:05:33.479669Z",
      "sealed": true
     },
     "h2oai-superagent": {
@@ -56527,7 +56527,7 @@
      "sd": 2.0
     },
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 6.95,
      "sd": 1.22
@@ -56563,7 +56563,7 @@
      "sd": 0.8
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 8.23,
      "sd": 1.0
@@ -56653,7 +56653,7 @@
      "sd": 1.2
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 8.56,
      "sd": 1.5
@@ -56683,7 +56683,7 @@
      "sd": 1.8
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 9.76,
      "sd": 1.58
@@ -62755,7 +62755,7 @@
    "n_forecasts": 3,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "profile",
      "cells_n": 5,
      "cells": {
@@ -62841,7 +62841,7 @@
    "n_forecasts": 3,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "ranking",
      "items_n": 10,
      "items": [
@@ -62910,25 +62910,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 29.38,
      "sd": 1.0
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 29.63,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 29.9,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 29.46,
      "sd": 1.21
@@ -62982,25 +62982,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -23.2,
      "sd": 2.34
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -26.5,
      "sd": 1.02
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -26.7,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -28.1,
      "sd": 1.98
@@ -63054,25 +63054,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -37.35,
      "sd": 3.42
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -41.78,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -41.7,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -44.76,
      "sd": 2.15
@@ -63126,25 +63126,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -33.64,
      "sd": 2.79
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -38.37,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -38.9,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -43.15,
      "sd": 2.34
@@ -63198,25 +63198,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -30.38,
      "sd": 1.89
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -33.65,
      "sd": 1.0
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -34.3,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": -36.03,
      "sd": 1.33
@@ -63270,25 +63270,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 57.57,
      "sd": 2.78
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 60.59,
      "sd": 1.68
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 59.6,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 61.66,
      "sd": 3.02
@@ -63479,7 +63479,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -65672,25 +65672,25 @@
    "n_forecasts": 6,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 39.0,
      "sd": 1.53
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 37.57,
      "sd": 1.5
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 38.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 36.22,
      "sd": 3.27
@@ -65748,25 +65748,25 @@
    "n_forecasts": 6,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 19.5,
      "sd": 1.87
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 19.8,
      "sd": 2.0
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 20.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 19.2,
      "sd": 3.88
@@ -65961,7 +65961,7 @@
    "n_forecasts": 3,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -66084,25 +66084,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 39.0,
      "sd": 1.53
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 37.57,
      "sd": 1.5
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 38.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 36.03,
      "sd": 3.51
@@ -66156,25 +66156,25 @@
    "n_forecasts": 5,
    "forecasts": {
     "climatology": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 19.5,
      "sd": 1.87
     },
     "ewma": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 19.8,
      "sd": 2.0
     },
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 20.0,
      "sd": 1.5
     },
     "trend": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "number",
      "mean": 19.16,
      "sd": 4.16
@@ -66365,7 +66365,7 @@
    "n_forecasts": 2,
    "forecasts": {
     "persistence": {
-     "filed": "2026-10-21T17:09Z",
+     "filed": "2026-10-21T21:40Z",
      "shape": "profile",
      "cells_n": 16,
      "cells": {
@@ -107446,8 +107446,8 @@
   "sb_approval": {
    "source": "sb_approval",
    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS-FKWVTTFtJT6u56e0bqdfoMcXvDO1DUChsJ3jQAMB2lZk2SMqVfmg7dGjclTYkYWz-Pm5lfcLPjp4/pub?output=csv",
-   "fetched_at": "2026-10-21T17:12:45Z",
-   "sha256": "c8e157a7c8ee26977ecc4b543cc81b9039bc189467d10b70be91050d366d44bd",
+   "fetched_at": "2026-10-21T21:42:30Z",
+   "sha256": "93c63ee1b1d25efb3109dc091679f860cb6e97976363158df78ba28e5c2fe290",
    "bytes": 1733276,
    "file": "sources/sb_approval/2026-10-21.csv",
    "note": "Silver Bulletin poll database, published as a Google Sheet"
@@ -107455,8 +107455,8 @@
   "sb_generic": {
    "source": "sb_generic",
    "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRsvXNCZ0ubJr8D_yNcU5q6C0_HBa35K7oDK03KpO7Ca43UwdXaIdvVLWoXEmHHph0EREz5430Hm5yZ/pub?output=csv",
-   "fetched_at": "2026-10-21T17:12:46Z",
-   "sha256": "9179b4127408831f487049c0363b6d309473505040956b92881b9c3036f293e6",
+   "fetched_at": "2026-10-21T21:42:31Z",
+   "sha256": "c33240110f9fa122d0e6480b3b5b7abc5f79ed32bbaeb195b2b874ee430937d2",
    "bytes": 178204,
    "file": "sources/sb_generic/2026-10-21.csv",
    "note": "Silver Bulletin generic-ballot database, published as a Google Sheet"
@@ -107464,7 +107464,7 @@
   "umich": {
    "source": "umich",
    "url": "http://www.sca.isr.umich.edu/files/tbmics.csv",
-   "fetched_at": "2026-10-21T17:12:46Z",
+   "fetched_at": "2026-10-21T21:42:31Z",
    "sha256": "367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a",
    "bytes": 14400,
    "file": "sources/umich/2026-10-21.json",
@@ -107473,9 +107473,9 @@
   "aaii": {
    "source": "aaii",
    "url": "https://www.aaii.com/sentimentsurvey/sent_results",
-   "fetched_at": "2026-10-21T17:12:46Z",
-   "sha256": "adcfed998cc3e23b4e0e6d16553ab772b292debfea505a584ec221b1ab3f8f57",
-   "bytes": 45991,
+   "fetched_at": "2026-10-21T21:42:32Z",
+   "sha256": "c7d368d63f91c96b86df19bde45501862860d8ce5950bc76eacd9a9de59a67e7",
+   "bytes": 46125,
    "file": "sources/aaii/2026-10-21.html",
    "note": "AAII sentiment survey results page, a ~22-week rolling window parsed against the response's own date 2026-10-21; the full 1987-present .xls is OLE2 and unreadable without a dependency"
   },
@@ -112066,7 +112066,7 @@
    "manifest_sha256": "d7cffb315ad5384237cc3b1772b83566a8857a010295080217f25401fbb89da6",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w43-angry-share.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-21T14:00:00Z",
    "built_at": "2026-10-21T17:10:38Z",
    "forecast_sha256": {
@@ -112098,7 +112098,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w43-approval": {
    "round_id": "civiqs-2026-w43-approval",
@@ -112107,7 +112107,7 @@
    "manifest_sha256": "c8a94bf6d44ea3dcba76a7323d457c903558a1336625f2968801cb627fe4d2fe",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w43-approval.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-21T14:00:00Z",
    "built_at": "2026-10-21T17:10:39Z",
    "forecast_sha256": {
@@ -112139,7 +112139,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w43-econ-direction": {
    "round_id": "civiqs-2026-w43-econ-direction",
@@ -112148,7 +112148,7 @@
    "manifest_sha256": "e48e76f1f61c5785605c56087a6d7bab9e1a82a521cf8285e4d91967817b16a1",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w43-econ-direction.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-21T14:00:00Z",
    "built_at": "2026-10-21T17:10:41Z",
    "forecast_sha256": {
@@ -112180,7 +112180,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w43-econ-now": {
    "round_id": "civiqs-2026-w43-econ-now",
@@ -112189,7 +112189,7 @@
    "manifest_sha256": "6bac5e59ba6bb6452ce29d4ea6033653f20e312c8c6a0c4bcd06dfa281494e82",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w43-econ-now.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-21T14:00:00Z",
    "built_at": "2026-10-21T17:10:42Z",
    "forecast_sha256": {
@@ -112221,7 +112221,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w43-family-finances": {
    "round_id": "civiqs-2026-w43-family-finances",
@@ -112230,7 +112230,7 @@
    "manifest_sha256": "4ebf54aa26ce61b53c7f886bcb751fb95c727f7596e83ef34450fba9fd2eb24d",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w43-family-finances.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-21T14:00:00Z",
    "built_at": "2026-10-21T17:10:44Z",
    "forecast_sha256": {
@@ -112262,7 +112262,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "civiqs-2026-w43-inflation-concern": {
    "round_id": "civiqs-2026-w43-inflation-concern",
@@ -112271,7 +112271,7 @@
    "manifest_sha256": "35cf4844220ad1b0f95a448859a3a34d08ca90c5d48bf00c03090ee4a9219785",
    "proof": true,
    "proof_file": "stamps/civiqs-2026-w43-inflation-concern.json.ots",
-   "bitcoin_attested": false,
+   "bitcoin_attested": true,
    "lock_at": "2026-10-21T14:00:00Z",
    "built_at": "2026-10-21T17:10:45Z",
    "forecast_sha256": {
@@ -112303,7 +112303,7 @@
    },
    "action": "upgraded",
    "ok": false,
-   "detail": "Failed! Timestamp not complete"
+   "detail": "Success! Timestamp complete"
   },
   "yougov-2026-w40-rv-approval": {
    "round_id": "yougov-2026-w40-rv-approval",
@@ -112635,8 +112635,8 @@
   {
    "source": "civiqs",
    "state": "ok",
-   "fetched_days": 0.7,
-   "changed_days": 2.7,
+   "fetched_days": 0.9,
+   "changed_days": 2.9,
    "budget_fetch_days": 2,
    "budget_change_days": 4,
    "url": null,
@@ -112645,176 +112645,176 @@
    "tracker_health": [
     {
      "key": "approve_president_trump_2025",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.age-18-34",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.age-35-49",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.age-50-64",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.age-65_",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.education-College_Graduate",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.education-Non-College_Graduate",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.education-Postgraduate",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.gender-Female",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.gender-Male",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.party-Democrat",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.party-Independent",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.party-Republican",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.race-Black_or_African-American",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.race-Hispanic_Latino",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.race-Other",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "approve_president_trump_2025.race-White",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "describe_feeling_us",
-     "fetched_days": 0.7,
-     "changed_days": 6.7,
+     "fetched_days": 0.9,
+     "changed_days": 6.9,
      "change_budget_days": 10,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-15"
     },
     {
      "key": "economy_family_retro",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-19"
     },
     {
      "key": "economy_us_direction",
-     "fetched_days": 0.7,
-     "changed_days": 1.7,
+     "fetched_days": 0.9,
+     "changed_days": 1.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-20"
     },
     {
      "key": "economy_us_now",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-19"
     },
     {
      "key": "inflation_impact",
-     "fetched_days": 0.7,
-     "changed_days": 2.7,
+     "fetched_days": 0.9,
+     "changed_days": 2.9,
      "change_budget_days": 4,
      "newest_snapshot": "2026-10-21",
      "newest_reading": "2026-10-19"
@@ -112829,7 +112829,7 @@
   {
    "source": "sb_approval",
    "state": "ok",
-   "fetched_days": 0.0,
+   "fetched_days": -0.0,
    "changed_days": 0.0,
    "budget_fetch_days": 2,
    "budget_change_days": 7,
@@ -112850,7 +112850,7 @@
    "source": "umich",
    "state": "ok",
    "fetched_days": -0.0,
-   "changed_days": 11.8,
+   "changed_days": 12.0,
    "budget_fetch_days": 3,
    "budget_change_days": 40,
    "url": "http://www.sca.isr.umich.edu/files/tbmics.csv",
@@ -112858,7 +112858,7 @@
   }
  ],
  "operator_status": {
-  "generated_at": "2026-10-21T17:12:45Z",
+  "generated_at": "2026-10-21T21:42:19Z",
   "source_states": [
    {
     "attempts": 1,
@@ -112871,7 +112871,7 @@
     "required_action": "none",
     "evidence": [
      "fetched_days=-0.0; changed_days=-0.0; fetch_budget=3; change_budget=12",
-     "sources/aaii/2026-10-21.html sha256=adcfed998cc3e23b4e0e6d16553ab772b292debfea505a584ec221b1ab3f8f57"
+     "sources/aaii/2026-10-21.html sha256=c7d368d63f91c96b86df19bde45501862860d8ce5950bc76eacd9a9de59a67e7"
     ],
     "alert": false,
     "source": "aaii",
@@ -112880,7 +112880,7 @@
    {
     "attempts": 1,
     "last_error": "economy_us_now: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_now; economy_family_retro: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_family_retro; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact; describe_feeling_us: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/describe_feeling_us",
-    "next_retry": "2026-10-21T23:12:45Z",
+    "next_retry": "2026-10-22T03:42:19Z",
     "next_lock": "2026-10-21T22:00:00Z",
     "next_deadline": "2026-10-21T22:00:00Z",
     "route": "ssa.series:civiqs",
@@ -112888,7 +112888,7 @@
     "required_action": "restore live access now or hold affected rounds before the deadline; the same-source archive is not a new release",
     "evidence": [
      "civiqs/describe_feeling_us (55 snapshots; newest 2026-10-21); civiqs/economy_family_retro (56 snapshots; newest 2026-10-21); civiqs/economy_us_now (56 snapshots; newest 2026-10-21); civiqs/inflation_impact (55 snapshots; newest 2026-10-21)",
-     "fetched_days=0.7; changed_days=2.7; fetch_budget=2; change_budget=4",
+     "fetched_days=0.9; changed_days=2.9; fetch_budget=2; change_budget=4",
      "live attempt failed; same-source archive used"
     ],
     "alert": true,
@@ -112937,8 +112937,8 @@
     "estimated_spend": 0.0,
     "required_action": "none",
     "evidence": [
-     "fetched_days=0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
-     "sources/sb_approval/2026-10-21.csv sha256=c8e157a7c8ee26977ecc4b543cc81b9039bc189467d10b70be91050d366d44bd"
+     "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
+     "sources/sb_approval/2026-10-21.csv sha256=93c63ee1b1d25efb3109dc091679f860cb6e97976363158df78ba28e5c2fe290"
     ],
     "alert": false,
     "source": "sb_approval",
@@ -112955,7 +112955,7 @@
     "required_action": "none",
     "evidence": [
      "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
-     "sources/sb_generic/2026-10-21.csv sha256=9179b4127408831f487049c0363b6d309473505040956b92881b9c3036f293e6"
+     "sources/sb_generic/2026-10-21.csv sha256=c33240110f9fa122d0e6480b3b5b7abc5f79ed32bbaeb195b2b874ee430937d2"
     ],
     "alert": false,
     "source": "sb_generic",
@@ -113019,7 +113019,7 @@
     "estimated_spend": 0.0,
     "required_action": "none",
     "evidence": [
-     "fetched_days=-0.0; changed_days=11.8; fetch_budget=3; change_budget=40",
+     "fetched_days=-0.0; changed_days=12.0; fetch_budget=3; change_budget=40",
      "sources/umich/2026-10-21.json sha256=367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a"
     ],
     "alert": false,
@@ -113075,263 +113075,7 @@
     "state": "healthy"
    }
   ],
-  "entrant_round_states": [
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "claude-sonnet-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/claude-sonnet-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "claude-sonnet-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/claude-sonnet-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "deepseek-pro-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/deepseek-pro-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "deepseek-pro-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/deepseek-pro-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "gemini-pro-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/gemini-pro-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "gemini-pro-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/gemini-pro-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "glm-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/glm-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "glm-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/glm-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "gpt-5.6-luna-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/gpt-5.6-luna-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "gpt-5.6-luna-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/gpt-5.6-luna-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "grok-web",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/grok-web.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "grok-web-superfc",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/grok-web-superfc.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "ppapi:app-us.ppapi.ai",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "test-jay",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/test-jay.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "participant:social-simulation-arena.com",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "worldvac-base",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/worldvac-base.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "participant:worldvac-ssa-agent.com",
-    "state": "succeeded"
-   },
-   {
-    "alert": false,
-    "attempts": 0,
-    "entrant": "zhengzheng-agent",
-    "estimated_spend": 0.0,
-    "evidence": [
-     "forecast=forecasts/civiqs-profile-2026-w43/zhengzheng-agent.json"
-    ],
-    "last_error": null,
-    "next_deadline": "2026-10-21T22:00:00Z",
-    "next_lock": "2026-10-21T22:00:00Z",
-    "next_retry": null,
-    "required_action": "none",
-    "round_id": "civiqs-profile-2026-w43",
-    "route": "participant:zhengzhengqimen.top",
-    "state": "succeeded"
-   }
-  ],
+  "entrant_round_states": [],
   "counts": {
    "sources": {
     "deadline_risk": 1,
@@ -113345,7 +113089,7 @@
     "queued": 0,
     "retryable_failure": 0,
     "running": 0,
-    "succeeded": 15,
+    "succeeded": 0,
     "terminal_failure": 0
    }
   },
