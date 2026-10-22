@@ -1,59 +1,45 @@
 {
   "alerts": [
     {
-      "id": "trends-basket-2026-10-31/glm-web",
-      "kind": "entrant_round",
-      "last_error": "provider transport failure",
-      "required_action": "retry on the next refresh; keep other entrants' successes",
-      "state": "retryable_failure"
-    },
-    {
-      "id": "wiki-top10-2026-11-01/gemini-pro-web",
-      "kind": "entrant_round",
-      "last_error": "provider call failed",
-      "required_action": "retry on the next refresh; keep other entrants' successes",
-      "state": "retryable_failure"
-    },
-    {
-      "id": "wiki-top10-2026-11-01/glm-web",
-      "kind": "entrant_round",
-      "last_error": "provider call failed",
-      "required_action": "retry on the next refresh; keep other entrants' successes",
-      "state": "retryable_failure"
-    },
-    {
       "id": "wiki-top10-2026-11-01/glm-web-superfc",
       "kind": "entrant_round",
       "last_error": "provider output limit",
       "required_action": "retry on the next refresh; keep other entrants' successes",
       "state": "retryable_failure"
+    },
+    {
+      "id": "civiqs",
+      "kind": "source",
+      "last_error": "economy_us_now: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_now; economy_us_direction: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_direction; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact; describe_feeling_us: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/describe_feeling_us",
+      "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
+      "state": "stale"
     }
   ],
   "counts": {
     "entrant_rounds": {
       "missed_lock": 0,
       "queued": 0,
-      "retryable_failure": 4,
+      "retryable_failure": 1,
       "running": 0,
-      "succeeded": 26,
+      "succeeded": 29,
       "terminal_failure": 0
     },
     "sources": {
       "deadline_risk": 0,
-      "healthy": 13,
+      "healthy": 12,
       "retryable_failure": 0,
-      "stale": 0,
+      "stale": 1,
       "unresolvable": 0
     }
   },
   "entrant_round_states": [
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "claude-sonnet-web",
-      "estimated_spend": 0.07065,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/claude-sonnet-web.json"
+        "forecast=forecasts/trends-basket-2026-10-31/claude-sonnet-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -66,11 +52,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "claude-sonnet-web-superfc",
-      "estimated_spend": 0.07065,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/claude-sonnet-web-superfc.json"
+        "forecast=forecasts/trends-basket-2026-10-31/claude-sonnet-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -83,11 +69,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "deepseek-pro-web",
-      "estimated_spend": 0.010348,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/deepseek-pro-web.json"
+        "forecast=forecasts/trends-basket-2026-10-31/deepseek-pro-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -100,11 +86,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "deepseek-pro-web-superfc",
-      "estimated_spend": 0.010348,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/deepseek-pro-web-superfc.json"
+        "forecast=forecasts/trends-basket-2026-10-31/deepseek-pro-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -117,11 +103,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "gemini-pro-web",
-      "estimated_spend": 0.046875,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/gemini-pro-web.json"
+        "forecast=forecasts/trends-basket-2026-10-31/gemini-pro-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -134,11 +120,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "gemini-pro-web-superfc",
-      "estimated_spend": 0.046875,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/gemini-pro-web-superfc.json"
+        "forecast=forecasts/trends-basket-2026-10-31/gemini-pro-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -150,27 +136,29 @@
       "state": "succeeded"
     },
     {
-      "alert": true,
+      "alert": false,
       "attempts": 1,
       "entrant": "glm-web",
       "estimated_spend": 0.01041,
-      "evidence": [],
-      "last_error": "provider transport failure",
+      "evidence": [
+        "forecast=sealed/trends-basket-2026-10-31/glm-web.json"
+      ],
+      "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
       "next_lock": "2026-10-23T14:00:00Z",
-      "next_retry": "2026-10-22T23:08:12Z",
-      "required_action": "retry on the next refresh; keep other entrants' successes",
+      "next_retry": null,
+      "required_action": "none",
       "round_id": "trends-basket-2026-10-31",
       "route": "ppapi:app-us.ppapi.ai",
-      "state": "retryable_failure"
+      "state": "succeeded"
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "glm-web-superfc",
-      "estimated_spend": 0.01041,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/glm-web-superfc.json"
+        "forecast=forecasts/trends-basket-2026-10-31/glm-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -183,11 +171,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "gpt-5.6-luna-web",
-      "estimated_spend": 0.046875,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/gpt-5.6-luna-web.json"
+        "forecast=forecasts/trends-basket-2026-10-31/gpt-5.6-luna-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -200,11 +188,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "gpt-5.6-luna-web-superfc",
-      "estimated_spend": 0.046875,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/gpt-5.6-luna-web-superfc.json"
+        "forecast=forecasts/trends-basket-2026-10-31/gpt-5.6-luna-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -217,11 +205,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "grok-web",
-      "estimated_spend": 0.07065,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/grok-web.json"
+        "forecast=forecasts/trends-basket-2026-10-31/grok-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -234,11 +222,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "grok-web-superfc",
-      "estimated_spend": 0.07065,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/grok-web-superfc.json"
+        "forecast=forecasts/trends-basket-2026-10-31/grok-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -251,11 +239,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "test-jay",
       "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/test-jay.json"
+        "forecast=forecasts/trends-basket-2026-10-31/test-jay.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -268,11 +256,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "worldvac-base",
       "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/worldvac-base.json"
+        "forecast=forecasts/trends-basket-2026-10-31/worldvac-base.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -285,11 +273,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "zhengzheng-agent",
       "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/zhengzheng-agent.json"
+        "forecast=forecasts/trends-basket-2026-10-31/zhengzheng-agent.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -302,11 +290,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "claude-sonnet-web",
-      "estimated_spend": 0.07065,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/claude-sonnet-web.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/claude-sonnet-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -319,11 +307,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "claude-sonnet-web-superfc",
-      "estimated_spend": 0.07065,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/claude-sonnet-web-superfc.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/claude-sonnet-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -336,11 +324,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "deepseek-pro-web",
-      "estimated_spend": 0.010348,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/deepseek-pro-web.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/deepseek-pro-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -353,11 +341,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "deepseek-pro-web-superfc",
-      "estimated_spend": 0.010348,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/deepseek-pro-web-superfc.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/deepseek-pro-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -369,27 +357,12 @@
       "state": "succeeded"
     },
     {
-      "alert": true,
+      "alert": false,
       "attempts": 1,
       "entrant": "gemini-pro-web",
       "estimated_spend": 0.046875,
-      "evidence": [],
-      "last_error": "provider call failed",
-      "next_deadline": "2026-10-23T14:00:00Z",
-      "next_lock": "2026-10-23T14:00:00Z",
-      "next_retry": "2026-10-22T23:08:12Z",
-      "required_action": "retry on the next refresh; keep other entrants' successes",
-      "round_id": "wiki-top10-2026-11-01",
-      "route": "ppapi:app-us.ppapi.ai",
-      "state": "retryable_failure"
-    },
-    {
-      "alert": false,
-      "attempts": 1,
-      "entrant": "gemini-pro-web-superfc",
-      "estimated_spend": 0.046875,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/gemini-pro-web-superfc.json"
+        "forecast=sealed/wiki-top10-2026-11-01/gemini-pro-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -401,19 +374,38 @@
       "state": "succeeded"
     },
     {
-      "alert": true,
+      "alert": false,
+      "attempts": 0,
+      "entrant": "gemini-pro-web-superfc",
+      "estimated_spend": 0.0,
+      "evidence": [
+        "forecast=forecasts/wiki-top10-2026-11-01/gemini-pro-web-superfc.json"
+      ],
+      "last_error": null,
+      "next_deadline": "2026-10-23T14:00:00Z",
+      "next_lock": "2026-10-23T14:00:00Z",
+      "next_retry": null,
+      "required_action": "none",
+      "round_id": "wiki-top10-2026-11-01",
+      "route": "ppapi:app-us.ppapi.ai",
+      "state": "succeeded"
+    },
+    {
+      "alert": false,
       "attempts": 1,
       "entrant": "glm-web",
       "estimated_spend": 0.01041,
-      "evidence": [],
-      "last_error": "provider call failed",
+      "evidence": [
+        "forecast=sealed/wiki-top10-2026-11-01/glm-web.json"
+      ],
+      "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
       "next_lock": "2026-10-23T14:00:00Z",
-      "next_retry": "2026-10-22T23:08:12Z",
-      "required_action": "retry on the next refresh; keep other entrants' successes",
+      "next_retry": null,
+      "required_action": "none",
       "round_id": "wiki-top10-2026-11-01",
       "route": "ppapi:app-us.ppapi.ai",
-      "state": "retryable_failure"
+      "state": "succeeded"
     },
     {
       "alert": true,
@@ -424,7 +416,7 @@
       "last_error": "provider output limit",
       "next_deadline": "2026-10-23T14:00:00Z",
       "next_lock": "2026-10-23T14:00:00Z",
-      "next_retry": "2026-10-22T23:08:12Z",
+      "next_retry": "2026-10-23T03:33:12Z",
       "required_action": "retry on the next refresh; keep other entrants' successes",
       "round_id": "wiki-top10-2026-11-01",
       "route": "ppapi:app-us.ppapi.ai",
@@ -432,11 +424,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "gpt-5.6-luna-web",
-      "estimated_spend": 0.046875,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/gpt-5.6-luna-web.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/gpt-5.6-luna-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -449,11 +441,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "gpt-5.6-luna-web-superfc",
-      "estimated_spend": 0.046875,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/gpt-5.6-luna-web-superfc.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/gpt-5.6-luna-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -466,11 +458,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "grok-web",
-      "estimated_spend": 0.07065,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/grok-web.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/grok-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -483,11 +475,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "grok-web-superfc",
-      "estimated_spend": 0.07065,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/grok-web-superfc.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/grok-web-superfc.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -500,11 +492,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "test-jay",
       "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/test-jay.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/test-jay.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -517,11 +509,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "worldvac-base",
       "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/worldvac-base.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/worldvac-base.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -534,11 +526,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "zhengzheng-agent",
       "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/zhengzheng-agent.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/zhengzheng-agent.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -550,7 +542,7 @@
       "state": "succeeded"
     }
   ],
-  "generated_at": "2026-10-22T17:24:22Z",
+  "generated_at": "2026-10-22T21:47:48Z",
   "source_states": [
     {
       "alert": false,
@@ -558,7 +550,7 @@
       "estimated_spend": 0.0,
       "evidence": [
         "fetched_days=-0.0; changed_days=-0.0; fetch_budget=3; change_budget=12",
-        "sources/aaii/2026-10-22.html sha256=9df311f464338680ff0707952978d3761023e8d839fbe60f2a777d3bed9eb14c"
+        "sources/aaii/2026-10-22.html sha256=5686812a792b1fee9cc67d844c05711ba398bf6739d824a1fc7e9c9566780f6f"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -570,21 +562,22 @@
       "state": "healthy"
     },
     {
-      "alert": false,
+      "alert": true,
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "22 validated non-empty series",
-        "fetched_days=0.7; changed_days=3.7; fetch_budget=2; change_budget=4"
+        "civiqs/describe_feeling_us (56 snapshots; newest 2026-10-22); civiqs/economy_us_direction (57 snapshots; newest 2026-10-22); civiqs/economy_us_now (57 snapshots; newest 2026-10-22); civiqs/inflation_impact (56 snapshots; newest 2026-10-22)",
+        "fetched_days=0.9; changed_days=3.9; fetch_budget=2; change_budget=4",
+        "live attempt failed; same-source archive used"
       ],
-      "last_error": null,
+      "last_error": "economy_us_now: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_now; economy_us_direction: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_direction; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact; describe_feeling_us: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/describe_feeling_us",
       "next_deadline": "2026-10-23T14:00:00Z",
       "next_lock": "2026-10-23T14:00:00Z",
-      "next_retry": null,
-      "required_action": "none",
+      "next_retry": "2026-10-23T03:47:48Z",
+      "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
       "route": "ssa.series:civiqs",
       "source": "civiqs",
-      "state": "healthy"
+      "state": "stale"
     },
     {
       "alert": false,
@@ -623,8 +616,8 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=0.5; fetch_budget=2; change_budget=7",
-        "sources/sb_approval/2026-10-22.csv sha256=40407c08831cf1231e6816837ea3c69b8e5e19904c78e94c91f8d8d869a298c6"
+        "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
+        "sources/sb_approval/2026-10-22.csv sha256=c8cacfec781df33d4aace28ecb401eb51d26ad04f9c1766cfc85f04809d37613"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -640,8 +633,8 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=0.5; fetch_budget=2; change_budget=10",
-        "sources/sb_generic/2026-10-22.csv sha256=15eba7d2471d5aa63e6b03dcda179ce77d0658f99bc6f0d70bfbce11caafae60"
+        "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
+        "sources/sb_generic/2026-10-22.csv sha256=82fc1870352325ef3797d40bda84a9e0b7ca7984b8b0728e8b74822623ae7c2b"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -705,7 +698,7 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=12.8; fetch_budget=3; change_budget=40",
+        "fetched_days=-0.0; changed_days=13.0; fetch_budget=3; change_budget=40",
         "sources/umich/2026-10-22.json sha256=367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a"
       ],
       "last_error": null,
