@@ -1,34 +1,19 @@
 {
-  "alerts": [
-    {
-      "id": "wiki-top10-2026-11-01/glm-web-superfc",
-      "kind": "entrant_round",
-      "last_error": "provider output limit",
-      "required_action": "retry on the next refresh; keep other entrants' successes",
-      "state": "retryable_failure"
-    },
-    {
-      "id": "civiqs",
-      "kind": "source",
-      "last_error": "economy_us_now: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_now; economy_us_direction: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_direction; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact; describe_feeling_us: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/describe_feeling_us",
-      "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
-      "state": "stale"
-    }
-  ],
+  "alerts": [],
   "counts": {
     "entrant_rounds": {
       "missed_lock": 0,
       "queued": 0,
-      "retryable_failure": 1,
+      "retryable_failure": 0,
       "running": 0,
-      "succeeded": 29,
+      "succeeded": 30,
       "terminal_failure": 0
     },
     "sources": {
       "deadline_risk": 0,
-      "healthy": 12,
+      "healthy": 13,
       "retryable_failure": 0,
-      "stale": 1,
+      "stale": 0,
       "unresolvable": 0
     }
   },
@@ -137,11 +122,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "glm-web",
-      "estimated_spend": 0.01041,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/trends-basket-2026-10-31/glm-web.json"
+        "forecast=forecasts/trends-basket-2026-10-31/glm-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -358,11 +343,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "gemini-pro-web",
-      "estimated_spend": 0.046875,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/gemini-pro-web.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/gemini-pro-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -392,11 +377,11 @@
     },
     {
       "alert": false,
-      "attempts": 1,
+      "attempts": 0,
       "entrant": "glm-web",
-      "estimated_spend": 0.01041,
+      "estimated_spend": 0.0,
       "evidence": [
-        "forecast=sealed/wiki-top10-2026-11-01/glm-web.json"
+        "forecast=forecasts/wiki-top10-2026-11-01/glm-web.json"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -408,19 +393,21 @@
       "state": "succeeded"
     },
     {
-      "alert": true,
+      "alert": false,
       "attempts": 1,
       "entrant": "glm-web-superfc",
       "estimated_spend": 0.01041,
-      "evidence": [],
-      "last_error": "provider output limit",
+      "evidence": [
+        "forecast=sealed/wiki-top10-2026-11-01/glm-web-superfc.json"
+      ],
+      "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
       "next_lock": "2026-10-23T14:00:00Z",
-      "next_retry": "2026-10-23T03:33:12Z",
-      "required_action": "retry on the next refresh; keep other entrants' successes",
+      "next_retry": null,
+      "required_action": "none",
       "round_id": "wiki-top10-2026-11-01",
       "route": "ppapi:app-us.ppapi.ai",
-      "state": "retryable_failure"
+      "state": "succeeded"
     },
     {
       "alert": false,
@@ -542,7 +529,7 @@
       "state": "succeeded"
     }
   ],
-  "generated_at": "2026-10-22T21:47:48Z",
+  "generated_at": "2026-10-23T04:51:27Z",
   "source_states": [
     {
       "alert": false,
@@ -550,7 +537,7 @@
       "estimated_spend": 0.0,
       "evidence": [
         "fetched_days=-0.0; changed_days=-0.0; fetch_budget=3; change_budget=12",
-        "sources/aaii/2026-10-22.html sha256=5686812a792b1fee9cc67d844c05711ba398bf6739d824a1fc7e9c9566780f6f"
+        "sources/aaii/2026-10-23.html sha256=5686812a792b1fee9cc67d844c05711ba398bf6739d824a1fc7e9c9566780f6f"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -562,22 +549,21 @@
       "state": "healthy"
     },
     {
-      "alert": true,
+      "alert": false,
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "civiqs/describe_feeling_us (56 snapshots; newest 2026-10-22); civiqs/economy_us_direction (57 snapshots; newest 2026-10-22); civiqs/economy_us_now (57 snapshots; newest 2026-10-22); civiqs/inflation_impact (56 snapshots; newest 2026-10-22)",
-        "fetched_days=0.9; changed_days=3.9; fetch_budget=2; change_budget=4",
-        "live attempt failed; same-source archive used"
+        "22 validated non-empty series",
+        "fetched_days=0.2; changed_days=2.2; fetch_budget=2; change_budget=4"
       ],
-      "last_error": "economy_us_now: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_now; economy_us_direction: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_direction; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact; describe_feeling_us: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/describe_feeling_us",
+      "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
       "next_lock": "2026-10-23T14:00:00Z",
-      "next_retry": "2026-10-23T03:47:48Z",
-      "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
+      "next_retry": null,
+      "required_action": "none",
       "route": "ssa.series:civiqs",
       "source": "civiqs",
-      "state": "stale"
+      "state": "healthy"
     },
     {
       "alert": false,
@@ -617,7 +603,7 @@
       "estimated_spend": 0.0,
       "evidence": [
         "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
-        "sources/sb_approval/2026-10-22.csv sha256=c8cacfec781df33d4aace28ecb401eb51d26ad04f9c1766cfc85f04809d37613"
+        "sources/sb_approval/2026-10-23.csv sha256=e2e05024a551b2d15efa3948b02ae16c2b381d8c6c33bcf9a5f024acae16adae"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -634,7 +620,7 @@
       "estimated_spend": 0.0,
       "evidence": [
         "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
-        "sources/sb_generic/2026-10-22.csv sha256=82fc1870352325ef3797d40bda84a9e0b7ca7984b8b0728e8b74822623ae7c2b"
+        "sources/sb_generic/2026-10-23.csv sha256=eae6c306b796f264fc34245a49f296c45f26bdc9b37b524baa9f028b431199b1"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
@@ -698,8 +684,8 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=13.0; fetch_budget=3; change_budget=40",
-        "sources/umich/2026-10-22.json sha256=367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a"
+        "fetched_days=-0.0; changed_days=13.3; fetch_budget=3; change_budget=40",
+        "sources/umich/2026-10-23.json sha256=367d14dca6409840976c8f199d00563077da4b18d25a5ab68772e480d4b7874a"
       ],
       "last_error": null,
       "next_deadline": "2026-10-23T14:00:00Z",
