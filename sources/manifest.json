@@ -1,8 +1,8 @@
 {
   "aaii": {
     "bytes": 46280,
-    "changed_at": "2026-10-24T04:35:30Z",
-    "fetched_at": "2026-10-24T04:35:30Z",
+    "changed_at": "2026-10-24T10:58:09Z",
+    "fetched_at": "2026-10-24T10:58:09Z",
     "file": "sources/aaii/2026-10-24.html",
     "note": "AAII sentiment survey results page, a ~22-week rolling window parsed against the response's own date 2026-10-24; the full 1987-present .xls is OLE2 and unreadable without a dependency",
     "sha256": "5686812a792b1fee9cc67d844c05711ba398bf6739d824a1fc7e9c9566780f6f",
@@ -11,7 +11,7 @@
   "sb_approval": {
     "bytes": 1740171,
     "changed_at": "2026-10-24T04:32:28Z",
-    "fetched_at": "2026-10-24T04:35:28Z",
+    "fetched_at": "2026-10-24T10:58:07Z",
     "file": "sources/sb_approval/2026-10-24.csv",
     "note": "Silver Bulletin poll database, published as a Google Sheet",
     "sha256": "20f6a4168e7df21219deed64ee28aed2306f7522bf2de08b3e06d474a3a49de6",
@@ -20,7 +20,7 @@
   "sb_generic": {
     "bytes": 179005,
     "changed_at": "2026-10-24T04:32:28Z",
-    "fetched_at": "2026-10-24T04:35:29Z",
+    "fetched_at": "2026-10-24T10:58:08Z",
     "file": "sources/sb_generic/2026-10-24.csv",
     "note": "Silver Bulletin generic-ballot database, published as a Google Sheet",
     "sha256": "0494a5f2125151d8b8c4d72c4df23602ada1961a90f47c84399c4fba41a2f325",
@@ -29,7 +29,7 @@
   "umich": {
     "bytes": 14415,
     "changed_at": "2026-10-23T17:04:38Z",
-    "fetched_at": "2026-10-24T04:35:30Z",
+    "fetched_at": "2026-10-24T10:58:08Z",
     "file": "sources/umich/2026-10-24.json",
     "note": "Surveys of Consumers, University of Michigan (sca.isr.umich.edu): tbmics.csv for finals and tbcics.csv for the current preliminary, newest reading 2026-10-01; hash-covered canonical raw composite of http://www.sca.isr.umich.edu/files/tbmics.csv and http://www.sca.isr.umich.edu/files/tbcics.csv",
     "sha256": "ca0d0f8dcdff3adc786b9469e5a4325363ff7a8a1cfe12d751eeae3f4e05c22f",

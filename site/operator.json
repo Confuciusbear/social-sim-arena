@@ -1,5 +1,13 @@
 {
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "civiqs",
+      "kind": "source",
+      "last_error": "approve_president_trump_2025: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/approve_president_trump_2025; approve_president_trump_2025.party-Republican: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/approve_president_trump_2025?party=Republican; economy_us_now: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_now; economy_us_direction: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_direction; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact; describe_feeling_us: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/describe_feeling_us; approve_president_trump_2025.party-Democrat: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/approve_president_trump_2025?party=Democrat; approve_president_trump_2025.party-Independent: HTTPError: 403 Client Error: ",
+      "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
+      "state": "stale"
+    }
+  ],
   "counts": {
     "entrant_rounds": {
       "missed_lock": 0,
@@ -11,14 +19,14 @@
     },
     "sources": {
       "deadline_risk": 0,
-      "healthy": 13,
+      "healthy": 12,
       "retryable_failure": 0,
-      "stale": 0,
+      "stale": 1,
       "unresolvable": 0
     }
   },
   "entrant_round_states": [],
-  "generated_at": "2026-10-24T04:35:22Z",
+  "generated_at": "2026-10-24T10:58:07Z",
   "source_states": [
     {
       "alert": false,
@@ -38,21 +46,22 @@
       "state": "healthy"
     },
     {
-      "alert": false,
+      "alert": true,
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "22 validated non-empty series",
-        "fetched_days=0.2; changed_days=3.2; fetch_budget=2; change_budget=4"
+        "civiqs/approve_president_trump_2025 (59 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.age-18-34 (56 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.age-35-49 (57 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.age-50-64 (58 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.age-65_ (57 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.education-College_Graduate (59 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.education-Non-College_Graduate (59 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.education-Postgraduate (59 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.gender-Female (59 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.gender-Male (59 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.party-Democrat (58 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.party-Independent (58 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.party-Republican (60 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.race-Black_or_African-American (59 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.race-Hispanic_Latino (60 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.race-Other (60 snapshots; newest 2026-10-24); civiqs/approve_president_trump_2025.race-White (58 snapshots; newest 2026-10-24); civiqs/describe_feeling_us (58 snapshots; newest 2026-10-24); civiqs/economy_us_direction (59 snapshots; newest 2026-10-24); civiqs/economy_us_now (59 snapshots; newest 2026-10-24); civiqs/inflation_impact (58 snapshots; newest 2026-10-24)",
+        "fetched_days=0.5; changed_days=3.5; fetch_budget=2; change_budget=4",
+        "live attempt failed; same-source archive used"
       ],
-      "last_error": null,
+      "last_error": "approve_president_trump_2025: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/approve_president_trump_2025; approve_president_trump_2025.party-Republican: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/approve_president_trump_2025?party=Republican; economy_us_now: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_now; economy_us_direction: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/economy_us_direction; inflation_impact: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/inflation_impact; describe_feeling_us: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/describe_feeling_us; approve_president_trump_2025.party-Democrat: HTTPError: 403 Client Error: Forbidden for url: https://civiqs.com/results/approve_president_trump_2025?party=Democrat; approve_president_trump_2025.party-Independent: HTTPError: 403 Client Error: ",
       "next_deadline": "2026-10-25T14:00:00Z",
       "next_lock": "2026-10-25T14:00:00Z",
-      "next_retry": null,
-      "required_action": "none",
+      "next_retry": "2026-10-24T16:58:07Z",
+      "required_action": "restore live access; the validated same-source archive may support forecasts but is not evidence of a new release",
       "route": "ssa.series:civiqs",
       "source": "civiqs",
-      "state": "healthy"
+      "state": "stale"
     },
     {
       "alert": false,
@@ -91,7 +100,7 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=7",
+        "fetched_days=0.0; changed_days=0.3; fetch_budget=2; change_budget=7",
         "sources/sb_approval/2026-10-24.csv sha256=20f6a4168e7df21219deed64ee28aed2306f7522bf2de08b3e06d474a3a49de6"
       ],
       "last_error": null,
@@ -108,7 +117,7 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=0.0; fetch_budget=2; change_budget=10",
+        "fetched_days=-0.0; changed_days=0.3; fetch_budget=2; change_budget=10",
         "sources/sb_generic/2026-10-24.csv sha256=0494a5f2125151d8b8c4d72c4df23602ada1961a90f47c84399c4fba41a2f325"
       ],
       "last_error": null,
@@ -173,7 +182,7 @@
       "attempts": 1,
       "estimated_spend": 0.0,
       "evidence": [
-        "fetched_days=-0.0; changed_days=0.5; fetch_budget=3; change_budget=40",
+        "fetched_days=-0.0; changed_days=0.7; fetch_budget=3; change_budget=40",
         "sources/umich/2026-10-24.json sha256=ca0d0f8dcdff3adc786b9469e5a4325363ff7a8a1cfe12d751eeae3f4e05c22f"
       ],
       "last_error": null,
